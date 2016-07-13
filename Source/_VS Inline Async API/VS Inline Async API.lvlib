@@ -32,8 +32,8 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Error Handling Process" Type="Folder">
-		<Item Name="Display and Log Process.vi" Type="VI" URL="../Error Handling Process/Display and Log Process.vi"/>
+		<Item Name="Display and Log Process.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/Display and Log Process.vi"/>
 	</Item>
-	<Item Name="Process.lvclass" Type="LVClass" URL="../Process/Process.lvclass"/>
-	<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../VS Inline Async API/VS Inline Async API.lvclass"/>
+	<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+	<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
 </Library>
