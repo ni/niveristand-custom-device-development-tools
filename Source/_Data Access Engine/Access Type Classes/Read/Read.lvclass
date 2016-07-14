@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="15008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Data Access Engine.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Data Access Engine.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">4c05d848-1b4c-4dd4-a8d5-7966bba6a677</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Z!!!*Q(C=\&gt;7\&lt;2N"&amp;)8B1U/"5X:A-&amp;,EZ,&lt;!&amp;NC"=6U#(7IT&amp;G$!O#WQ"&lt;:QY!\9!C0HV,_D3]EPG9FN'):G/&gt;4ST/PD\()FD@*;ON(Z7PHQSX*J(RX\L5__&lt;:^@ZUPS]0L*_+?/X\&gt;@RA`3=_W8JB`8@^Z`J?CFP*4`O^R&gt;`2(]]&gt;`"1P/$C'JK5:-;GJ=^G^TE*D?ZS5V?Z%6?Z%6?Z%7?Z%G?Z%G?Z%E?Z%%?Z%%?Z%%_$H+2CVTEE-TC:C%TK:H!&gt;)9C]W9]RG-]RM.('9`R')`R'!^&gt;:$T'9TT'9TQ-E`%9D`%9D`%QV:"Y(/2YD)@J68A+4_%J0)7(*66Y#E#R7$&amp;R-1E-&amp;9X&amp;3?%J0)7(5R7?QF.Y#E`BI6G&amp;J`!5HM*4?"AS&gt;K7':D\)]4#.%E`C34S**`%QN2*0YEE]C3@RM*Q34_**%-G#S?11F!R+/C1@%E`CY9]34_**0)EH]&gt;!ULF#/H:EV]U'/*`!%HM!4?!)05SDQ"*\!%XA#$^-K]!3?Q".Y!A^,+@!%HM!41)*&amp;76\":-(!I&amp;-1""Z?YW[*=:6K3')=5N_][JN3@&lt;/J&lt;S,VT;'_[/K,K&lt;Z)[MV8&lt;[J[M^3&lt;I0ZS;L1;IVZ%08DOK"0P2_K"OK@OK&amp;PKBLKGLKD,??BP\HA[H81](H5Y(,4@\\8&lt;\&lt;4&gt;&lt;L8:&lt;,2?L\6;L&lt;2=,B]@!W]Y(B])$]_F/][HT_]8U_W\;@,(;&lt;L^-EVP0SXG`#`]@`Y(HIV[J;`89)`O!?@PB_Q!!!!!</Property>
 	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
@@ -24,14 +24,14 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Data Access Engine.lvlib:Data Access Engine.lvclass" Type="Friended Library" URL="../../../Data Access Engine/Data Access Engine.lvclass"/>
+		<Item Name="Data Access Engine.lvlib:Data Access Engine.lvclass" Type="Friended Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
 	</Item>
 	<Item Name="Read.ctl" Type="Class Private Data" URL="Read.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Read.Close.vi" Type="VI" URL="../Read.Close.vi">
+		<Item Name="Read.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.Close.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!#&amp;*F971A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!"V*F971A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -40,7 +40,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 		</Item>
-		<Item Name="Read.EngineData.vi" Type="VI" URL="../Read.EngineData.vi">
+		<Item Name="Read.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.EngineData.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%S!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!#&amp;*F971A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!/%"Q!"Y!!#=92'&amp;U93""9W.F=X-A27ZH;7ZF,GRW&lt;'FC$&amp;*F971O&lt;(:D&lt;'&amp;T=Q!(5G6B:#"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -49,7 +49,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8388624</Property>
 		</Item>
-		<Item Name="Read.Initialize.vi" Type="VI" URL="../Read.Initialize.vi">
+		<Item Name="Read.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.Initialize.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!).!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!#&amp;*F971A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%Q!]1!!!!!!!!!#&amp;U.V=X2P&lt;3"%:8:J9W5A16"*,GRW&lt;'FC%E2B&gt;'%A5G6G:8*F&lt;G.F,G.U&lt;!!:1!-!$E2B&gt;'%A5G6G:8*F&lt;G.F!!!.1!A!"E^G:H.F&gt;!!!$5!)!!:-:7ZH&gt;'A!!&amp;E!]1!!!!!!!!!#&amp;U.V=X2P&lt;3"%:8:J9W5A16"*,GRW&lt;'FC'%*M&lt;W.L)%2B&gt;'%A5G6G:8*F&lt;G.F,G.U&lt;!!A1&amp;!!!Q!(!!A!#1Z#&lt;'^D;S"%982B)&amp;*F:A!!%E"!!!(`````!!I%5G6G=Q!!(5!+!":$;'&amp;O&lt;G6M)%2B&gt;'%A5G6G:8*F&lt;G.F!!!51%!!!@````]!$!:797RV:8-!!"2!5!!#!!M!$1B4:82U;7ZH=Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!Y#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!A!!!!!!1!0!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -58,7 +58,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 		</Item>
-		<Item Name="Read.ProcessData.vi" Type="VI" URL="../Read.ProcessData.vi">
+		<Item Name="Read.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#&amp;2J&lt;76P&gt;81`!!!&amp;!!I!!"*!1!!"`````Q!&amp;"%2B&gt;'%!!$J!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!#&amp;*F971A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!-!#H2J&lt;76P&gt;81A&lt;8-!!$B!=!!?!!!H'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AR3:7&amp;E,GRW9WRB=X-!"V*F971A;7Y!91$Q!!Q!!Q!%!!9!"Q!)!!A!#!!)!!E!#!!+!!M$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>

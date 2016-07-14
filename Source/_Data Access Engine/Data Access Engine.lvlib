@@ -31,11 +31,11 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Read.lvclass" Type="LVClass" URL="../Access Type Classes/Read/Read.lvclass"/>
-		<Item Name="ReadWrite.lvclass" Type="LVClass" URL="../Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
-		<Item Name="Write.lvclass" Type="LVClass" URL="../Access Type Classes/Write/Write.lvclass"/>
+	<Item Name="Classes" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Read.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass"/>
+		<Item Name="ReadWrite.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
+		<Item Name="Write.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass"/>
 	</Item>
-	<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../Data Access Engine/Data Access Engine.lvclass"/>
+	<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
 </Library>
