@@ -31,6 +31,15 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Item Name="Write.Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Buffer.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'!!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!I'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AV8=GFU:3ZM&gt;G.M98.T!!!*6X*J&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!$!!:0:G:T:81!!"V!#A!71WBB&lt;GZF&lt;#"%982B)&amp;*F:G6S:7ZD:1!!&amp;%"!!!(`````!!A'6G&amp;M&gt;76T!!!]1(!!(A!!+"B%982B)%&amp;D9W6T=S"&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7).6X*J&gt;'5O&lt;(:D&lt;'&amp;T=Q!!#&amp;&gt;S;82F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!E!#A)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!))!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+		</Item>
 		<Item Name="Write.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Close.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!I'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AV8=GFU:3ZM&gt;G.M98.T!!!*6X*J&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!#A92'&amp;U93""9W.F=X-A27ZH;7ZF,GRW&lt;'FC$6&gt;S;82F,GRW9WRB=X-!!!B8=GFU:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -39,6 +48,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
+		</Item>
+		<Item Name="Write.Commit.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.Commit.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!I'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AV8=GFU:3ZM&gt;G.M98.T!!!*6X*J&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!#A92'&amp;U93""9W.F=X-A27ZH;7ZF,GRW&lt;'FC$6&gt;S;82F,GRW9WRB=X-!!!B8=GFU:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107820560</Property>
 		</Item>
 		<Item Name="Write.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.EngineData.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!I'%2B&gt;'%A17.D:8.T)%6O:WFO:3ZM&gt;GRJ9AV8=GFU:3ZM&gt;G.M98.T!!!*6X*J&gt;'5A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!]1(!!(A!!+"B%982B)%&amp;D9W6T=S"&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7).6X*J&gt;'5O&lt;(:D&lt;'&amp;T=Q!!#&amp;&gt;S;82F)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
