@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Template Async VI" Type="Folder">
+			<Item Name="Async.Template.vit" Type="VI" URL="../_Template/Async.Template.vit"/>
+		</Item>
 		<Item Name="Data Access Engine.lvlib" Type="Library" URL="../_Data Access Engine/Data Access Engine.lvlib"/>
 		<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 		<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../_VS Inline Async API/VS Inline Async API.lvlib"/>
