@@ -33,6 +33,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Error Handling Process" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Error.ConvertArray.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 			<Item Name="Error.GetError.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.GetError.vi"/>
 		</Item>

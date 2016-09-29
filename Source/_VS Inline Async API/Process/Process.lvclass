@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../VS Inline Async API.lvlib</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">55d1f2d9-92af-4102-ba22-fbda28b2d0c6</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)1!!!*Q(C=\&gt;4.=2J"')4BNEI(8]F!21L@W4&gt;3))5P";Y[EE+H1!KEU#G1!CH)\YZ'%C6B=Z'L6#\.-!PUTM`$\,,3+$_F?TX&gt;+L`_7F\/DY\0P&gt;]/F_`,[^XB_PC8]R`'@ZDE_PHL[``:@[0IOXS8`\M]XPQ4`00`Q1]N$S*;;+9VL&lt;1M_R4SE)=]Z#%0O=F.&lt;H+4G^TE4&gt;\E4&gt;\E4&gt;\E26\E26\E26\EIZ+,8/1CBR17$QO&amp;3=-%I4-5B50Q"%`Q"!^@&amp;4T"%TT"%TRU5@!%4`!%4`!Q4-%40-%40-($6%/35=HR"!`4SXC-RXC-RXB95M:D!'9R-\':")&lt;-3@0"?)T(?0AIYT%?YT%?Y_'UD-&gt;YD-&gt;YD)=B9V=].%MFR]-U;DS.J`%UHM&lt;$V'I]D;@R.*\'QX*K0)WH141,.J.$5$/I[&gt;"];4S.BT=VHM&lt;4?"J0Y_(5O%)^&gt;G&lt;2,*5=4_%J0)7H]"1?JF$B+4S&amp;J`!5(K:6Y3E]B;@Q&amp;"[75O%J0)7HA"3,MLS+S9K"2;=C+$S]RNV3YSJZ3'J5;&gt;[]GD?FZMWG?2.JXBS;&amp;VXT9GJ?*-X.V^R5T=X3X!4.([?*VM2I,K)Z?/GI-]=4\5A\U0;U(7V,W^$7N.5S^*-\HM^HH5YH(9^((1Y(\@&gt;\\89\&lt;&lt;&gt;&lt;&lt;49&lt;L&gt;&gt;LL6;LV]@!!`8VA@!6HEN@QH#HST89I^_,8X!M!!!!!!</Property>
+	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.6</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
