@@ -6,6 +6,7 @@
 	<Item Name="_SubVIs" Type="Folder">
 		<Item Name="SysDef.Globals.vi" Type="VI" URL="../_SubVIs/SysDef.Globals.vi"/>
 		<Item Name="Sysdef.LoadFile.vi" Type="VI" URL="../_SubVIs/Sysdef.LoadFile.vi"/>
+		<Item Name="SysDef.Node.Info.Get.vi" Type="VI" URL="../_SubVIs/SysDef.Node.Info.Get.vi"/>
 		<Item Name="SysDef.Property.Get.Boolean.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Get.Boolean.vi"/>
 		<Item Name="SysDef.Property.Get.DBL.Array.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Get.DBL.Array.vi"/>
 		<Item Name="SysDef.Property.Get.DBL.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Get.DBL.vi"/>
@@ -34,6 +35,10 @@
 		<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
 		<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Set.U32.vi"/>
 		<Item Name="SysDef.Property.Set.Variant.vi" Type="VI" URL="../_SubVIs/SysDef.Property.Set.Variant.vi"/>
+		<Item Name="SysDef.Search.GUID.vi" Type="VI" URL="../_SubVIs/SysDef.Search.GUID.vi"/>
+		<Item Name="SysDef.Search.GUIDs.vi" Type="VI" URL="../_SubVIs/SysDef.Search.GUIDs.vi"/>
+		<Item Name="SysDef.Search.Name.vi" Type="VI" URL="../_SubVIs/SysDef.Search.Name.vi"/>
+		<Item Name="SysDef.Search.Target.vi" Type="VI" URL="../_SubVIs/SysDef.Search.Target.vi"/>
 		<Item Name="Sysdef.SimpleExport.vi" Type="VI" URL="../_SubVIs/Sysdef.SimpleExport.vi"/>
 		<Item Name="Sysdef.SimpleImport.vi" Type="VI" URL="../_SubVIs/Sysdef.SimpleImport.vi"/>
 		<Item Name="TreeItem.Get.vi" Type="VI" URL="../_SubVIs/TreeItem.Get.vi"/>
@@ -57,8 +62,10 @@
 		<Item Name="SysDef.CreateDescription.vi" Type="VI" URL="../SysDef API/SysDef.CreateDescription.vi"/>
 		<Item Name="SysDef.CreateSection.vi" Type="VI" URL="../SysDef API/SysDef.CreateSection.vi"/>
 		<Item Name="SysDef.CreateWaveform.vi" Type="VI" URL="../SysDef API/SysDef.CreateWaveform.vi"/>
+		<Item Name="SysDef.Node.Info.vi" Type="VI" URL="../SysDef API/SysDef.Node.Info.vi"/>
 		<Item Name="SysDef.Property.Get.vi" Type="VI" URL="../SysDef API/SysDef.Property.Get.vi"/>
 		<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../SysDef API/SysDef.Property.Remove.vi"/>
 		<Item Name="SysDef.Property.Set.vi" Type="VI" URL="../SysDef API/SysDef.Property.Set.vi"/>
+		<Item Name="SysDef.Search.vi" Type="VI" URL="../SysDef API/SysDef.Search.vi"/>
 	</Item>
 </Library>
