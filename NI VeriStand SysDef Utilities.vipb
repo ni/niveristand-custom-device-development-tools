@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-12 09:26:56" Modified_Date="2016-12-13 14:42:15" Creator="Daniel Eaton" Comments="" ID="806bbec1ed5a1a549732f18dfc65ae69">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-12 09:26:56" Modified_Date="2016-12-13 15:24:54" Creator="Daniel Eaton" Comments="" ID="02747b9e7171d6a15bf62003fae37970">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_VeriStand_SysDef_Utilities</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
