@@ -1,23 +1,10 @@
-Simple-System-Definition-API
+System Definition Utilities
 ===================
 
-The Simple System Definition API wraps the .NET system definition API into a simpler, more user friendly form.  It implements the most common functions.
+The System Definition Utilities makes creating an addon's system definition API simpler and significantly more efficient.  It also works in LabVIEW and TestStand (which is not true of the shipping VeriStand functions).  It also allows for easier importing and exporting of your addon.
 
 ### Usage ###
-Copy and rename folder "Source" into "C:\Program Files (x86)\National Instruments\LabVIEW 20xx\user.lib\Simple SysDef"
-
-Folder structure should be
-```
-user.lib
-+---Simple SysDef
-|   +---Examples
-|   |   +---_Files
-|   |   \---_SubVIs
-|   +---Utilities
-|   +---_Errors
-|   +---_SubVIs
-|   \---_Templates
-```
+Install the VI package in the Built folder.
 
 ### LabVIEW Version ###
 
@@ -25,11 +12,11 @@ LabVIEW 2015
 
 ### Built Availability ###
 
-There is no built version of this as it is an API.
+Use the attached VI Package in the Built folder.
 
 ### Quality, Limitations ###
 
-The IP is not maintained.  It was written and tested in LV 2012 but has not been tested since.
+The IP is new and is not in wide use yet.
 
 ### Dependencies ###
 
