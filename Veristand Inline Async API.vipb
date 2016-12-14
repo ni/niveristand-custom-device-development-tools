@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-12 12:25:51" Creator="Tanner" Comments="" ID="e6c6a01f800382116d819e0f4fca6386">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-14 11:40:22" Creator="Tanner" Comments="" ID="7e977e12bacef04c19a3f2cd1b0473c8">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Veristand_Inline_Async_API</Package_File_Name>
-    <Library_Version>1.0.0.20</Library_Version>
+    <Library_Version>1.0.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
