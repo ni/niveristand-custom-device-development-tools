@@ -35,7 +35,10 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Error.ConvertArray.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
+			<Item Name="Error.Format.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Format.vi"/>
 			<Item Name="Error.GetError.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.GetError.vi"/>
+			<Item Name="Error.Message.Format.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Message.Format.vi"/>
+			<Item Name="Error.Tags.Check.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
 		</Item>
 		<Item Name="Display and Log Process.vi" Type="VI" URL="../Error Handling Process/Display and Log Process.vi"/>
 	</Item>

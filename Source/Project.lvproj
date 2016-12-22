@@ -21,27 +21,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Template Async VI" Type="Folder">
-			<Item Name="Async.Template.vit" Type="VI" URL="../_Template/Async.Template.vit"/>
+			<Item Name="Async.Template.vit" Type="VI" URL="../vi.lib/NI/NIVS Inline Async API/_Template/Async.Template.vit"/>
 		</Item>
-		<Item Name="Data Access Engine.lvlib" Type="Library" URL="../_Data Access Engine/Data Access Engine.lvlib"/>
-		<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../_Data Access System Explorer/Data Access System Explorer.lvlib"/>
-		<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../_VS Inline Async API/VS Inline Async API.lvlib"/>
+		<Item Name="Data Access Engine.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+		<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
+		<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
+				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 			</Item>
-			<Item Name="Error.Format.vi" Type="VI" URL="../_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
-			<Item Name="Error.Message.Format.vi" Type="VI" URL="../_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
-			<Item Name="Error.Tags.Check.vi" Type="VI" URL="../_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
