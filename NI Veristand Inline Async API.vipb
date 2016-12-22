@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-22 14:54:47" Creator="Tanner" Comments="" ID="5350fb216dc7652e8eca2e3a05e4c409">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-22 16:06:11" Creator="Tanner" Comments="" ID="90a8c99ffa48491920b40cbd20e256f0">
   <Library_General_Settings>
-    <Package_File_Name>NI_lib_Veristand_Inline_Async_API</Package_File_Name>
-    <Library_Version>1.0.0.26</Library_Version>
+    <Package_File_Name>NI_lib_NIVS_Inline_Async_API</Package_File_Name>
+    <Library_Version>1.0.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -25,7 +25,7 @@
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
-    <VI_Package_Configuration_File>Veristand Inline Async API.vipc</VI_Package_Configuration_File>
+    <VI_Package_Configuration_File>NI Veristand Inline Async API.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Inline Async Custom Device Pallette for LabVIEW</One_Line_Description_Summary>
       <Description/>

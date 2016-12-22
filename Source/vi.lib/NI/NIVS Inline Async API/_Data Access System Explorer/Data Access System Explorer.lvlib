@@ -10,7 +10,6 @@
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)\!!!*Q(C=\&gt;8.43."%)&lt;BTYA$6W?!P!D%C5/FY"3=1C7Q"`P)X*R#J?!5@%&gt;#KB3=AF-9XOYJW!5%POSCV9I?^T$__O_B:RCE8C[E=YWHSO&lt;4]NQ_&gt;7SH=4K^&lt;:]_YX4Z1@OY?@6ZXT\.P&gt;H]=LV;`Z0R(`N0&amp;(W8\`*`F`O4@Q2``?^AJP9CIC9VK%YVN78(*%`S*%`S*%`S)!`S)!`S)!^S*X&gt;S*X&gt;S*X&gt;S)T&gt;S)T&gt;S)T@S@J#,8/1CBZ1MHCS54*J-E(3'IO35?"*0YEE]@&amp;8C34S**`%E(LII]33?R*.Y%A`$F(A34_**0)G(K&lt;IE_U'/*`%QP1*0Y!E]A3@QM+1#4Q!)&amp;AMG$C;"I;!RO!A]A3@Q=+H!%XA#4_!*0$1L]!3?Q".Y!A^$_KZ%V\3$(!`4S0%Y(M@D?"Q05]PR/"\(YXA=$]P*]4A?"_%M[%Q/1=YAJY0TR@%Y(H\)]4A?R_.Y(!^.`1ZZXZGG;1=Z(M.D?!S0Y4%]4#($9XA-D_%R0%QLQW.Y$)`B-4QM*=.D?!S0!4%7:8E:ERE$D5Z'9(DY^+@&amp;_FW+,L&amp;_308QKBZ+V=/G?IB5$Y@KJKNOJOIGK4:@N;GKT6*NAOK85[&amp;6'.5CKM'NIY[=$^1^&gt;5@&gt;5N@5&amp;86*86$H&lt;?A@\HA](H5Y(,4@\\8&lt;\&lt;4&gt;&lt;L6?L\6;L&lt;2=,L69,$3@TV^?!Z==,S_%[&lt;VUT`8Q](-W80_9$&lt;&gt;8QX"X-QS06U0,P_$`]T`Q&lt;N3:@F_$08I#&lt;T[%:Q!!!!!</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">locked</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
