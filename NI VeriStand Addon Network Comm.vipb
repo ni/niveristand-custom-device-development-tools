@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-22 15:26:41" Modified_Date="2016-12-22 16:20:06" Creator="Daniel Eaton" Comments="" ID="24004ff74bec8f125876f4655e6f196b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-22 15:26:41" Modified_Date="2016-12-23 11:40:22" Creator="Daniel Eaton" Comments="" ID="6ce8aa3d54ef24f039c84aa35d571b59">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NIVS_Addon_Network_Comm</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
