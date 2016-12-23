@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-22 16:06:11" Creator="Tanner" Comments="" ID="90a8c99ffa48491920b40cbd20e256f0">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-09 09:52:36" Modified_Date="2016-12-23 10:14:16" Creator="Tanner" Comments="" ID="101f9c0b0043e4f62f8def12e12060ae">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NIVS_Inline_Async_API</Package_File_Name>
-    <Library_Version>1.0.0.28</Library_Version>
+    <Library_Version>1.0.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
