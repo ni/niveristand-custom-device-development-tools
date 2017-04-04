@@ -4,15 +4,19 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Error Location.ctl" Type="VI" URL="../Error Location.ctl"/>
+		<Item Name="Log FGV Operation Modes.ctl" Type="VI" URL="../Log FGV Operation Modes.ctl"/>
+	</Item>
 	<Item Name="Compile HHP.vi" Type="VI" URL="../Compile HHP.vi"/>
 	<Item Name="Create HHP File.vi" Type="VI" URL="../Create HHP File.vi"/>
 	<Item Name="Create Temp Directory for Compile.vi" Type="VI" URL="../Create Temp Directory for Compile.vi"/>
-	<Item Name="Error Location.ctl" Type="VI" URL="../Error Location.ctl"/>
 	<Item Name="Find and Compile.vi" Type="VI" URL="../Find and Compile.vi"/>
 	<Item Name="Find Help Documentation in Project.vi" Type="VI" URL="../Find Help Documentation in Project.vi"/>
 	<Item Name="Find HTML Help Workshop Installation.vi" Type="VI" URL="../Find HTML Help Workshop Installation.vi"/>
+	<Item Name="Install Template.vi" Type="VI" URL="../Install Template.vi"/>
 	<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 	<Item Name="Log Error and Build FGV.vi" Type="VI" URL="../Log Error and Build FGV.vi"/>
-	<Item Name="Log FGV Operation Modes.ctl" Type="VI" URL="../Log FGV Operation Modes.ctl"/>
+	<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../Post-Build Custom Action.vi"/>
 	<Item Name="Pre-Build Compile HHP.vi" Type="VI" URL="../Pre-Build Compile HHP.vi"/>
 </Library>
