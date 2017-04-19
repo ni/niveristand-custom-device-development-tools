@@ -1,0 +1,25 @@
+.collapsed, .expanded {
+  list-style-type: none; 
+  padding-left: 5px;
+}
+.expandable_img {
+ 
+  cursor: pointer;  
+  min-width: 10px;
+  position: relative;
+  right: 5px;  
+}
+.item {
+  list-style-type: none;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+/* Use the UL style for bulleted lists. Nested lists will use the bullet types according to the nesting scheme below. NOTE: hyphen.gif required in same directory as minimal.css */
+ul ul {list-style-image:none}
+ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul {list-style-image:none}
+ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul {list-style-image:none}
+ul ul ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+ul ul ul ul ul ul ul ul ul{list-style-image:none}
