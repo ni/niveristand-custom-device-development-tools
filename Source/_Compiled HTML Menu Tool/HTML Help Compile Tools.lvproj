@@ -22,6 +22,9 @@
 			</Item>
 		</Item>
 		<Item Name="CHM Generator.lvclass" Type="LVClass" URL="../Classes/CHM Generator/CHM Generator.lvclass"/>
+		<Item Name="Compiled Help Menu Wizard.vi" Type="VI" URL="../Compiled Help Menu Wizard.vi">
+			<Property Name="marked" Type="Int">0</Property>
+		</Item>
 		<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="../Classes/Keyed Value Tree/Keyed Value Tree.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -41,6 +44,9 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi">
