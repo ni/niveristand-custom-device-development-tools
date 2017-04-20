@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-19 12:37:27" Modified_Date="2017-04-19 18:05:23" Creator="Tanner Blair" Comments="" ID="82089decb5053c3daf798accfe90cbbc">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-19 12:37:27" Modified_Date="2017-04-20 13:04:52" Creator="Tanner Blair" Comments="" ID="3e86315b838462b9de3cd63d7c1951bd">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Compiled_HTML_Menu_Tool</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -197,7 +197,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>2B9973771D08841A10FB8BFA1E140008</GUID>
+      <GUID>91D7857049D5DA3C971CFF4FDE8DAB7C</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -218,7 +218,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>6532BE837520A9A711610C2150FD4CC8</GUID>
+      <GUID>0935E019FFE82D394333E30E99053C51</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
