@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-19 12:37:27" Modified_Date="2017-04-20 13:54:14" Creator="Tanner Blair" Comments="" ID="de3ffc3049bcd1455e2f7ebcbb2f10ef">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-19 12:37:27" Modified_Date="2017-04-25 15:21:34" Creator="Tanner Blair" Comments="" ID="252bb8e451f975adf686e00b6024efd2">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Compiled_HTML_Menu_Tool</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -97,8 +97,38 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Compiled Help Menu Wizard.vi</Path>
+        <Path>Compiled HTML Menu Tool/project/_Compiled HTML Menu Tool</Path>
         <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Compiled HTML Menu Tool/project/Compiled Help Menu Wizard.vi</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Compiled HTML Menu Tool/vi.lib/CHM Generator</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Compiled HTML Menu Tool/vi.lib/Keyed Value Tree</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Compiled HTML Menu Tool/vi.lib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Compiled HTML Menu Tool/vi.lib/Load CHM Page.vi</Path>
+        <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -112,6 +142,12 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>TOC Editor</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Compiled HTML Menu Tool/Compile HTML Menu Tool.lvproj</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>license.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -197,7 +233,35 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>288D0646ABCE6038A87D975F20A8EF09</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Load CHM Page.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Compiled HTML Menu Tool\vi.lib\Load CHM Page.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_1355_0_4_Function</NameSub_Menu_Name>
+        <Short_Name>Control Online Help</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path/>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>327355CDECF78A6285B98E1C0F0C4F7F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
