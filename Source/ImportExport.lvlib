@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="File Interface.lvclass" Type="LVClass" URL="../File Interface Class/File Interface.lvclass"/>
 	<Item Name="Export Custom Device Configuration.vi" Type="VI" URL="../Export Custom Device Configuration.vi"/>
 	<Item Name="Import Custom Device Configuration.vi" Type="VI" URL="../Import Custom Device Configuration.vi"/>
 	<Item Name="Sysdef.SimpleExport.vi" Type="VI" URL="../subVIs/Sysdef.SimpleExport.vi"/>
