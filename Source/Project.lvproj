@@ -21,7 +21,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Template Async VI" Type="Folder">
-			<Item Name="Async.Template.vit" Type="VI" URL="../vi.lib/NI/NIVS Inline Async API/_Template/Async.Template.vit"/>
+			<Item Name="Async.Template.vit" Type="VI" URL="../vi.lib/NI/NIVS Inline Async API/_Template/Async.Template.vit">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Data Access Engine.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 		<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
