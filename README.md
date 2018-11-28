@@ -8,7 +8,11 @@ LabVIEW 2015
 
 ## Dependencies
 
-NI Veristand 2015 or later
+NI VeriStand 2015 or later
+
+## Usage
+
+The API is intended to be installed through a VI package, defined by the `NI VeriStand Inline Async API.vipb` build specification. Pre-built packages are provided as [releases on GitHub](https://github.com/ni/niveristand-custom-device-inline-async-api/releases).
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
