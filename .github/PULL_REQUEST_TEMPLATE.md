@@ -1,4 +1,4 @@
-[ ] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/niveristand-custom-device-inline-async-api/blob/master/CONTRIBUTING.md).
+- [ ] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/niveristand-custom-device-inline-async-api/blob/master/CONTRIBUTING.md).
 
 TODO: Check the above box with an 'x' indicating you've read and followed [CONTRIBUTING.md](https://github.com/ni/niveristand-custom-device-inline-async-api/blob/master/CONTRIBUTING.md).
 
