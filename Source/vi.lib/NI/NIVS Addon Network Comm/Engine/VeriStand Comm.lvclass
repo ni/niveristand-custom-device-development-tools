@@ -104,13 +104,13 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Comm Command Engine.vi" Type="VI" URL="../_SubVIs/Comm Command Engine.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!"Q!,68"E982F)&amp;*B&gt;'5!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"71(!!(A!!0C6/33"7:8*J5X2B&lt;G1A172E&lt;WYA4G6U&gt;W^S;S"$&lt;WVN,GRW&lt;'FC&amp;F:F=GF4&gt;'&amp;O:#"$&lt;WVN,GRW9WRB=X-!!!R$&lt;WVN,GRW9WRB=X-!!$R!=!!?!!!L'6:4)%FO&lt;'FO:3""=XFO9S""5%EO&lt;(:M;7)05(*P9W6T=SZM&gt;G.M98.T!!&gt;1=G^D:8.T!&amp;1!]!!-!!-!"!!%!!1!"!!%!!5!"!!'!!1!"Q!)!Q!!?!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!!!!!!"!!!!!1!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"6!"Q!/4'^P=#"5;7VF)#BN=SE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6E"Q!"Y!!$YF4EEA6G6S;6.U97ZE)%&amp;E:'^O)%ZF&gt;(&gt;P=GMA1W^N&lt;3ZM&gt;GRJ9B:7:8*J5X2B&lt;G1A1W^N&lt;3ZM&gt;G.M98.T!!!-1W^N&lt;3ZM&gt;G.M98.T!!!]1(!!(A!!+RF75S"*&lt;GRJ&lt;G5A18.Z&lt;G-A16"*,GRW&lt;'FC$V"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!(5(*P9W6T=Q"5!0!!$!!$!!1!"!!%!!1!"!!&amp;!!1!"A!%!!=!#!-!!(A!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!!!!!!1!!!!%!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">2</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8388624</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
 		<Item Name="Comm Connection Engine.vi" Type="VI" URL="../_SubVIs/Comm Connection Engine.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6E"Q!"Y!!$YF4EEA6G6S;6.U97ZE)%&amp;E:'^O)%ZF&gt;(&gt;P=GMA1W^N&lt;3ZM&gt;GRJ9B:7:8*J5X2B&lt;G1A1W^N&lt;3ZM&gt;G.M98.T!!!-1W^N&lt;3ZM&gt;G.M98.T!!!]1(!!(A!!+RF75S"*&lt;GRJ&lt;G5A18.Z&lt;G-A16"*,GRW&lt;'FC$V"S&lt;W.F=X-O&lt;(:D&lt;'&amp;T=Q!(5(*P9W6T=Q"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!"Q-!!(A!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!%!!!!!!"!!A!!!!!</Property>
