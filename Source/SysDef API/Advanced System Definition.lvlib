@@ -34,6 +34,9 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="_SubVIs" Type="Folder">
+		<Item Name="_TreeItem.Property.Get.Dictionary.Info.vi" Type="VI" URL="../../_SubVIs/_TreeItem.Property.Get.Dictionary.Info.vi"/>
+		<Item Name="_TreeItem.Property.Get.Dictionary.Read.vi" Type="VI" URL="../../_SubVIs/_TreeItem.Property.Get.Dictionary.Read.vi"/>
+		<Item Name="_TreeItem.Property.Get.Dictionary.vi" Type="VI" URL="../../_SubVIs/_TreeItem.Property.Get.Dictionary.vi"/>
 		<Item Name="SysDef.Globals.vi" Type="VI" URL="../../_SubVIs/SysDef.Globals.vi"/>
 		<Item Name="Sysdef.LoadFile.vi" Type="VI" URL="../../_SubVIs/Sysdef.LoadFile.vi"/>
 		<Item Name="SysDef.Node.Info.Get.vi" Type="VI" URL="../../_SubVIs/SysDef.Node.Info.Get.vi"/>
