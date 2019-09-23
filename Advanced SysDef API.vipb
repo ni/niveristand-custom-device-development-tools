@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-04-20 11:46:53" Modified_Date="2018-04-12 14:27:15" Creator="Tanner Blair" Comments="" ID="65073b7a48b6a5423a23ab3a39b5c68d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-04-20 11:46:53" Modified_Date="2019-09-13 10:51:12" Creator="Tanner Blair" Comments="" ID="8c8349ea9e51f529cb7e35d0005b26fc">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_Advanced_SysDef_API</Package_File_Name>
-    <Library_Version>1.1.1.7</Library_Version>
+    <Library_Version>1.1.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -343,7 +343,7 @@ https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilitie
         <Path>Source\SysDef API\SysDef.UpdateCDVersionFromXML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9342683D38F57C270A62807146645B37</GUID>
+      <GUID>C51E41C07E02EF5EB0E1E4DBFB0BF4B8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
