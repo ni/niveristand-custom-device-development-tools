@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-16 22:32:49" Modified_Date="2017-05-11 13:48:24" Creator="Tanner Blair" Comments="" ID="b43d8d7d30e482e78013607c9c2d7845">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-04-16 22:32:49" Modified_Date="2019-09-23 08:11:43" Creator="Tanner Blair" Comments="" ID="37b683aa8c1fdc9aacdf86c64d89bcae">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_VeriStand_Custom_Device_Import_and_Export_Tool</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -97,6 +97,11 @@ https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool<
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -228,7 +233,7 @@ https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool<
         <Path>Source\Export Custom Device Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40925A281F620F3CA47A12952D52F285</GUID>
+      <GUID>B7EFF37A5D394188167912AFCE091F97</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
