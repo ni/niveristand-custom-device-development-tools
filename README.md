@@ -8,7 +8,7 @@ Install the VI package in the Built folder.
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2019
 
 ### Built Availability ###
 
@@ -20,7 +20,7 @@ The IP is new and is not in wide use yet.
 
 ### Dependencies ###
 
-NI VeriStand 2015
+NI VeriStand 2019
 
 ### License ###
 
