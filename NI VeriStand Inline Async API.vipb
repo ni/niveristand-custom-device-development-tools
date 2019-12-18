@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-09-09 09:52:36" Modified_Date="2019-08-20 14:59:29" Creator="Tanner" Comments="" ID="8d647fbc2bba23330fabadc06bfaa38d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-09-09 09:52:36" Modified_Date="2019-12-18 11:25:20" Creator="Tanner" Comments="" ID="c36517f986a05ae3075ce08c26a4187d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_NIVS_Inline_Async_API</Package_File_Name>
-    <Library_Version>1.0.0.33</Library_Version>
+    <Library_Version>1.0.0.39</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -249,7 +249,7 @@ https://github.com/ni/niveristand-custom-device-inline-async-api</Description>
         <Path>Source\Engine</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00210E0D11C18681DB9FFA921CC1BE50</GUID>
+      <GUID>8DE2F099F2F162A9E88FF2657D129D15</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -284,7 +284,7 @@ https://github.com/ni/niveristand-custom-device-inline-async-api</Description>
         <Path>Source\vi.lib\NI\NIVS Inline Async API\_Data Access System Explorer\Methods\Data.OnCompile.Execute.vi</Path>
         <VI_Title>Build Group Refs</VI_Title>
       </Items_Data>
-      <GUID>C5753D3441D45986DBB84CFFE1789339</GUID>
+      <GUID>16DA27107191C1F2830BB5A063FFB14C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +333,7 @@ https://github.com/ni/niveristand-custom-device-inline-async-api</Description>
         <Path>Source\Async</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C04AE0CC9CC8DF115136F6FBDCCF1ED1</GUID>
+      <GUID>8409543CCC1923352B679446C32EFCDD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -424,7 +424,7 @@ https://github.com/ni/niveristand-custom-device-inline-async-api</Description>
         <Path>Source\vi.lib\NI\NIVS Inline Async API\_VS Inline Async API\VS Inline Async API\Methods\Async.Engine.Close.vi</Path>
         <VI_Title>Close</VI_Title>
       </Items_Data>
-      <GUID>A69A8BAC7F163ED5C9363D6A2F35B97B</GUID>
+      <GUID>D34F063CAF982736955AC24A238657E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -501,7 +501,7 @@ https://github.com/ni/niveristand-custom-device-inline-async-api</Description>
         <Path>Source\vi.lib\NI\NIVS Inline Async API\_Data Access Engine\Data Access Engine\Methods\Data.Processes.Execute.vi</Path>
         <VI_Title>Read/Write Group</VI_Title>
       </Items_Data>
-      <GUID>93E9A52EA25947C22AF3F09C35C8FB70</GUID>
+      <GUID>E12E6DFA731C03BD24B351003B87B70F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
