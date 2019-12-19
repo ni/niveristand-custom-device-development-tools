@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-12-22 15:26:41" Modified_Date="2019-12-19 13:17:04" Creator="Daniel Eaton" Comments="" ID="b2ab1196984e2dd618a65d3c576e7c78">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-12-22 15:26:41" Modified_Date="2019-12-19 13:57:45" Creator="Daniel Eaton" Comments="" ID="32a37f048dac07385af5e62a4206ca88">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NIVS_Hardware_Resource_Discovery</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
