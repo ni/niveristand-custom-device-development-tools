@@ -95,6 +95,7 @@
 		<Item Name="SysDef.CreateSection.vi" Type="VI" URL="../SysDef.CreateSection.vi"/>
 		<Item Name="SysDef.CreateWaveform.vi" Type="VI" URL="../SysDef.CreateWaveform.vi"/>
 		<Item Name="SysDef.Node.Info.vi" Type="VI" URL="../SysDef.Node.Info.vi"/>
+		<Item Name="SysDef.Node.Pointer.Get.vi" Type="VI" URL="../SysDef.Node.Pointer.Get.vi"/>
 		<Item Name="SysDef.Property.Get.vi" Type="VI" URL="../SysDef.Property.Get.vi"/>
 		<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../SysDef.Property.Remove.vi"/>
 		<Item Name="SysDef.Property.Set.vi" Type="VI" URL="../SysDef.Property.Set.vi"/>
