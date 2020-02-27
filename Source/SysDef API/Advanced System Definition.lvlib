@@ -99,6 +99,7 @@
 		<Item Name="SysDef.Property.Get.vi" Type="VI" URL="../SysDef.Property.Get.vi"/>
 		<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../SysDef.Property.Remove.vi"/>
 		<Item Name="SysDef.Property.Set.vi" Type="VI" URL="../SysDef.Property.Set.vi"/>
+		<Item Name="SysDef.Rename.vi" Type="VI" URL="../SysDef.Rename.vi"/>
 		<Item Name="SysDef.Search.vi" Type="VI" URL="../SysDef.Search.vi"/>
 		<Item Name="SysDef.UpdateCDVersionFromXML.vi" Type="VI" URL="../SysDef.UpdateCDVersionFromXML.vi"/>
 		<Item Name="SysDef.Version.Get.vi" Type="VI" URL="../SysDef.Version.Get.vi"/>
