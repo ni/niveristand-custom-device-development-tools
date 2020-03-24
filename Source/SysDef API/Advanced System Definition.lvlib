@@ -74,6 +74,7 @@
 		<Item Name="SysDef.Search.GUID.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUID.vi"/>
 		<Item Name="SysDef.Search.GUIDs.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUIDs.vi"/>
 		<Item Name="SysDef.Search.Name.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Name.vi"/>
+		<Item Name="SysDef.Search.Parent.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Parent.vi"/>
 		<Item Name="SysDef.Search.Target.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Target.vi"/>
 		<Item Name="TreeItem.Get.vi" Type="VI" URL="../../_SubVIs/TreeItem.Get.vi"/>
 		<Item Name="TreeItem.Property.Get.vi" Type="VI" URL="../../_SubVIs/TreeItem.Property.Get.vi"/>
@@ -94,6 +95,7 @@
 		<Item Name="SysDef.CreateDescription.vi" Type="VI" URL="../SysDef.CreateDescription.vi"/>
 		<Item Name="SysDef.CreateSection.vi" Type="VI" URL="../SysDef.CreateSection.vi"/>
 		<Item Name="SysDef.CreateWaveform.vi" Type="VI" URL="../SysDef.CreateWaveform.vi"/>
+		<Item Name="SysDef.Item.Remove.vi" Type="VI" URL="../SysDef.Item.Remove.vi"/>
 		<Item Name="SysDef.Node.Info.vi" Type="VI" URL="../SysDef.Node.Info.vi"/>
 		<Item Name="SysDef.Node.Pointer.Get.vi" Type="VI" URL="../SysDef.Node.Pointer.Get.vi"/>
 		<Item Name="SysDef.Property.Get.vi" Type="VI" URL="../SysDef.Property.Get.vi"/>
