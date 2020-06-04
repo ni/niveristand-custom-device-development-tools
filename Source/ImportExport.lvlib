@@ -10,5 +10,4 @@
 	<Item Name="Import Custom Device Configuration.vi" Type="VI" URL="../Import Custom Device Configuration.vi"/>
 	<Item Name="Sysdef.SimpleExport.vi" Type="VI" URL="../subVIs/Sysdef.SimpleExport.vi"/>
 	<Item Name="Sysdef.SimpleImport.vi" Type="VI" URL="../subVIs/Sysdef.SimpleImport.vi"/>
-	<Item Name="Pre-Import Action.vit" Type="VI" URL="../Pre-Import Action.vit"/>
 </Library>
