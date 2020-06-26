@@ -1,0 +1,18 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+
+[projects.inline_async_api]
+path = 'inline-async-api\Source\Project.lvproj'
+
+[[build.steps]]
+name = 'Inline Async API'
+type = 'lvBuildSpec'
+project = '{inline_async_api}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[package]
+type = 'nipkg'
+payload_dir = 'Built'
+install_destination = 'ni-paths-LV{labview_version}DIR'

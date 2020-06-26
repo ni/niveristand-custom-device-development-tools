@@ -1,0 +1,14 @@
+Package: ni-custom-device-development-tools-{labview_version}-support
+Version: {nipkg_version}
+Architecture: windows_all
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides VeriStand custom device development tools for LabVIEW {labview_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: VeriStand Custom Device Development Tools for LabVIEW {labview_version}
