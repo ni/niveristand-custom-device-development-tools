@@ -351,20 +351,8 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Allocate.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Allocate.vi"/>
-			<Item Name="Assert Stop.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Stop/Assert Stop.vi"/>
-			<Item Name="Copy.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Copy.vi"/>
-			<Item Name="Create.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Stop/Create.vi"/>
-			<Item Name="Deallocate.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Deallocate.vi"/>
-			<Item Name="Duplicate.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Duplicate.vi"/>
 			<Item Name="Memory Benchmark Async.vi" Type="VI" URL="../Source/Examples/Memory Benchmark/Memory Benchmark Async.vi"/>
-			<Item Name="Pointer.lvclass" Type="LVClass" URL="../Source/Source/Classes/Pointer/Pointer.lvclass"/>
-			<Item Name="Read I32.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Read I32.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Read.vi"/>
-			<Item Name="Stop Pointer.lvclass" Type="LVClass" URL="../Source/Source/Classes/Pointer/Stop/Stop Pointer.lvclass"/>
 			<Item Name="UI Pointers.ctl" Type="VI" URL="../Source/Examples/Memory Benchmark/UI Pointers.ctl"/>
-			<Item Name="Write I32.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Write I32.vi"/>
-			<Item Name="Write.vi" Type="VI" URL="../Source/Source/Classes/Pointer/Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
