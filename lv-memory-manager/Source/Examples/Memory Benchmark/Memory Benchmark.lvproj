@@ -295,8 +295,8 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Memory Benchmark Async.vi" Type="VI" URL="../Memory Benchmark Async.vi"/>
-			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Source/Memory Manager.lvlib"/>
-			<Item Name="Static Errors.lvlib" Type="Library" URL="../../../Source/Static Errors.lvlib"/>
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Memory Manager.lvlib"/>
+			<Item Name="Static Errors.lvlib" Type="Library" URL="../../../Static Errors.lvlib"/>
 			<Item Name="UI Pointers.ctl" Type="VI" URL="../UI Pointers.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
