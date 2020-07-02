@@ -33,13 +33,13 @@ The following dependencies are used by some or all of the included components of
 The following components have been merged into the repository from other, individual repositories on GitHub. The components were added as subtrees to retain their individual commit history.
 |Component name|Sub-folder in repository|Migrated from repository|Date subtree was integrated|
 |---|---|---|---|
-|Advanced System Definition Utilities|adv-sysdef-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities|tbd|
-|Compiled HTML Menu Tool|compiled-html|https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools|tbd|
+|Advanced System Definition Utilities|advanced-sysdef-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities|2020-07-02|
+|Compiled HTML Menu Tool|html-help-tools|https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools|2020-07-02|
 |Network Comm API|network-comm|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm|tbd|
 |Hardware Resource Discovery|hardware-discovery|https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery|tbd|
 |Inline Async API|inline-async-api|https://github.com/ni/niveristand-custom-device-inline-async-api|2020-06-26|
-|Import and Export Tool|import-export|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool|tbd|
-|Error API|error-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API|tbd|
+|Import and Export Tool|import-export|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool|2020-07-02|
+|Error API|error-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API|2020-07-02|
 |LabVIEW Memory Manager|lv-memory-manager|https://github.com/ni/labview-memory-management-tools|2020-06-22|
 
 ### Releases
