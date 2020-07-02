@@ -2,8 +2,18 @@
 build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
+[projects.lv_memory_manager]
+path = 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
+
 [projects.inline_async_api]
 path = 'inline-async-api\Source\Project.lvproj'
+
+[[build.steps]]
+name = 'LabVIEW Memory Manager'
+type = 'lvBuildSpec'
+project = '{lv_memory_manager}'
+target = 'My Computer'
+build_spec = 'Build Source'
 
 [[build.steps]]
 name = 'Inline Async API'
