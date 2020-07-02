@@ -400,13 +400,13 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Menus Directory</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/Programming</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/VeriStand Development Tools</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[4].destName" Type="Str">Examples Directory</Property>
 				<Property Name="Destination[4].path" Type="Path">../Built/examples/NI/Memory Manager/Memory Benchmark</Property>
 				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{65612469-6E90-4664-AD9E-A1BB4D82E62B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9906F9B8-BC1A-43E2-B5C4-645C6337F453}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Memory Manager.lvlib</Property>
