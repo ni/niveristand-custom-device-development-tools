@@ -8,6 +8,15 @@ path = 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
 [projects.inline_async_api]
 path = 'inline-async-api\Source\Project.lvproj'
 
+[projects.advanced_sysdef_api]
+path = 'advanced-sysdef-api\Source\Advanced System Definition API.lvproj'
+
+[projects.error_api]
+path = 'error-api\Source\VeriStand Error API.lvproj'
+
+[projects.import_export]
+path = 'import-export\Source\VeriStand Custom Device Import Export Tool.lvproj'
+
 [[build.steps]]
 name = 'LabVIEW Memory Manager'
 type = 'lvBuildSpec'
@@ -19,6 +28,27 @@ build_spec = 'Build Source'
 name = 'Inline Async API'
 type = 'lvBuildSpec'
 project = '{inline_async_api}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[[build.steps]]
+name = 'Advanced SysDef API'
+type = 'lvBuildSpec'
+project = '{advanced_sysdef_api}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[[build.steps]]
+name = 'Error API'
+type = 'lvBuildSpec'
+project = '{error_api}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[[build.steps]]
+name = 'Import Export'
+type = 'lvBuildSpec'
+project = '{import_export}'
 target = 'My Computer'
 build_spec = 'Move Source'
 
