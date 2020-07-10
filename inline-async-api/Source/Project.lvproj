@@ -41,7 +41,7 @@
 		<Item Name="Data Access Engine.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 		<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 		<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
+		<Item Name="Common Post-Build Action.vi" Type="VI" URL="../../../shared/Common Post-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
@@ -55,9 +55,9 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -85,10 +85,10 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Common Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A502D698-B672-49B5-AD1C-B18AAEE02313}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built</Property>
@@ -102,7 +102,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/VeriStand Development Tools</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0C625353-CAB3-459B-B1F1-B198D0E3DD38}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB951283-7910-4193-8BF7-057E8E518771}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VS Inline Async API.lvlib</Property>
