@@ -35,8 +35,8 @@ The following components have been merged into the repository from other, indivi
 |---|---|---|---|---|
 |Advanced System Definition Utilities|advanced-sysdef-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities|[9d5890e](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities/commit/9d5890eb49f2fc5c434798badb0cf094fed26971)|2020-07-02|
 |Compiled HTML Menu Tool|html-help-tools|https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools|[b7313ef](https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools/commit/b7313efff653019f935e32cdbf198fdcc96947bc)|2020-07-02|
-|Network Comm API|network-comm|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm|tbd|tbd|
-|Hardware Resource Discovery|hardware-discovery|https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery|tbd|tbd|
+|Network Comm API|network-comm|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm|[d1d0284](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm/commit/d1d0284e4231374ae834cd6dbf2412a6005dc311)|2020-07-10|
+|Hardware Resource Discovery|hardware-discovery|https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery|[a6d6976](https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery/commit/a6d6976abf230167b8d534f67f64ab1786337d7f)|2020-07-10|
 |Inline Async API|inline-async-api|https://github.com/ni/niveristand-custom-device-inline-async-api|[1de9f30](https://github.com/ni/niveristand-custom-device-inline-async-api/commit/1de9f30aad586b879a27f8e58cb80218e1df76db)|2020-06-26|
 |Import and Export Tool|import-export|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool|[9bf1c00](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool/commit/9bf1c004985817ddabfead992f853cf064994f91)|2020-07-02|
 |Error API|error-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API|[e9d3eb2](https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API/commit/e9d3eb2148d2cab9452d25e1ea2b2a120602deb5)|2020-07-02|
