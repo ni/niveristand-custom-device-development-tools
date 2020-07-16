@@ -129,6 +129,7 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 			</Item>
+			<Item Name="Copy Built Files.vi" Type="VI" URL="../../../../shared/Copy Built Files.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Move Source" Type="Source Distribution">
