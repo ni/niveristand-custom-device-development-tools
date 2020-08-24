@@ -1,5 +1,5 @@
 # NI VeriStand Custom Device Development Tools
-The **niveristand-custom-device-development-tools** repository provides a combination of dependencies commonly used in the development of custom devices. The intended audience includes custom device developers and integrators
+The **niveristand-custom-device-development-tools** repository provides a combination of dependencies commonly used in the development of custom devices. The intended audience includes custom device developers and integrators.
 
 ## LabVIEW Version
 The LabVIEW source for this repository is saved for LabVIEW 2017, but is forward compatible to newer versions.
