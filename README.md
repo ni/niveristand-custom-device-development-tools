@@ -7,8 +7,9 @@ The LabVIEW source for this repository is saved for LabVIEW 2017, but is forward
 The source version will increase over time as newer releases of VeriStand are released. A current version + three years back model will be used.
 
 ## Dependencies
-The following dependencies are used by some or all of the included components of this repository. They can all be found in VI Package Manager and are hosted on the LabVIEW Tools Network.
+The following dependencies are used by some or all of the included components of this repository.
 
+### VI Package Manager (hosted on the LabVIEW Tools Network)
 - jki_labs_tool_vi_tester-3.0.2.294-1.ogp
 - jki_lib_easyxml-3.0.0.170.vip
 - jki_lib_json_serialization-1.1.10.37.vip
@@ -27,6 +28,9 @@ The following dependencies are used by some or all of the included components of
 - oglib_file-4.0.1.22.vip
 - oglib_lvdata-4.2.0.21.vip
 - oglib_string-4.1.0.12.vip
+
+### External
+- [Microsoft HTML Help Workshop](https://www.microsoft.com/en-us/download/details.aspx?id=21138)
 
 ## Usage
 ### Included Components
