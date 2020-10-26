@@ -16,7 +16,12 @@ Use the attached VI Package in the Built folder.
 
 ### Quality, Limitations ###
 
-The IP is new and is not in wide use yet.
+The IP is new and is not in wide use yet. The API is using CDS structures with OFFLINE==TRUE and OFFLINE==FALSE(Default) options for the VI implementations that use VeriStand .NET API  => the lack of CDS structures with these options might cause compile errors when building Engine libraries for Custom Devices for RT Targets.
+
+OFFLINE==TRUE - marks code to be executed outside the context of VeriStand, for example an API in a normal LabVIEW project.
+OFFLINE==FALSE(Default) - marks code that can be executed within the context of VeriStand.
+
+The reason is that due to cross-referencing, the Advanced System Definition API library and some of it's member VIs might included in the Engine builds for the RT targes, and this will lead to errors during builds ( since .NET controls used in this library are not supported on RT Targets).
 
 ### Dependencies ###
 
