@@ -1,0 +1,15 @@
+Package: labview-memory-management-tools-{labview_version}-support
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides an advanced set of memory management tools for LabVIEW {labview_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: LabVIEW Memory Management Tools for LabVIEW {labview_version}
+Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}

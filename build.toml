@@ -82,7 +82,14 @@ project = '{network_comm}'
 target = 'My Computer'
 build_spec = 'Move Source'
 
-[package]
+[[package]]
 type = 'nipkg'
+control_file = 'control'
 payload_dir = 'Built'
+install_destination = 'ni-paths-LV{labview_version}DIR'
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_lvmm'
+payload_dir = 'lv-memory-manager\Built'
 install_destination = 'ni-paths-LV{labview_version}DIR'
