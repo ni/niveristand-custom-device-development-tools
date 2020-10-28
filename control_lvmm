@@ -1,4 +1,4 @@
-Package: labview-memory-management-tools-{labview_version}-support
+Package: ni-labview-memory-management-tools-labview-{labview_version}-support
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
