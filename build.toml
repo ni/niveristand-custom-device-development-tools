@@ -87,7 +87,6 @@ type = 'nipkg'
 control_file = 'control'
 payload_dir = 'Built'
 install_destination = 'ni-paths-LV{labview_version}DIR'
-package_output_dir = 'Built'
 
 [[package]]
 type = 'nipkg'

@@ -33,6 +33,13 @@ The following dependencies are used by some or all of the included components of
 - [Microsoft HTML Help Workshop](https://www.microsoft.com/en-us/download/details.aspx?id=21138)
 
 ## Usage
+
+### Releases
+This repository will regularly release builds of the dependencies using NI Packages per LabVIEW version. Custom device developers and open-source contributors should look for updated dependencies before submitting code to custom device repositories on github.com/ni.
+
+### Packages
+Most of the components are included in a common NI Package (`ni-custom-device-development-tools`). Some components are packaged individually, such as the LabVIEW Memory Manager tools. See the table below for which package contains each component.
+
 ### Included Components
 The following components have been merged into the repository from other, individual repositories on GitHub. The components were added as subtrees to retain their individual commit history.
 |Component name|Sub-folder in repository|Migrated from repository|Commit at migration|Date subtree was integrated|Package|
@@ -45,12 +52,6 @@ The following components have been merged into the repository from other, indivi
 |Import and Export Tool|import-export|https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool|[9bf1c00](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool/commit/9bf1c004985817ddabfead992f853cf064994f91)|2020-07-02|Common|
 |Error API|error-api|https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API|[e9d3eb2](https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API/commit/e9d3eb2148d2cab9452d25e1ea2b2a120602deb5)|2020-07-02|Common|
 |LabVIEW Memory Manager|lv-memory-manager|https://github.com/ni/labview-memory-management-tools|[4a542e2](https://github.com/ni/labview-memory-management-tools/commit/4a542e226cecc1243db6d32982f74b91b5c07874)|2020-06-22|ni-labview-memory-management-tools
-
-### Releases
-This repository will regularly release builds of the dependencies using NI Packages per LabVIEW version. Custom device developers and open-source contributors should look for updated dependencies before submitting code to custom device repositories on github.com/ni.
-
-### Packages
-Most of the components are included in a common NI Package (`ni-custom-device-development-tools`). Some components are packaged individually, such as the LabVIEW Memory Manager tools. See the table above for which package contains each component.
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
