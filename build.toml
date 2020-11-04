@@ -82,7 +82,16 @@ project = '{network_comm}'
 target = 'My Computer'
 build_spec = 'Move Source'
 
-[package]
+[[package]]
 type = 'nipkg'
-payload_dir = 'Built'
+control_file = 'control'
+payload_dir = 'Built\Common'
 install_destination = 'ni-paths-LV{labview_version}DIR'
+package_output_dir = 'Built'
+
+[[package]]
+type = 'nipkg'
+control_file = 'control_lvmm'
+payload_dir = 'Built\LVMM'
+install_destination = 'ni-paths-LV{labview_version}DIR'
+package_output_dir = 'Built'
