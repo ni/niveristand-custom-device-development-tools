@@ -95,3 +95,6 @@ control_file = 'control_lvmm'
 payload_dir = 'Built\LVMM'
 install_destination = 'ni-paths-LV{labview_version}DIR'
 package_output_dir = 'Built'
+
+[notification]
+type = 'teams'
