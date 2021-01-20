@@ -27,3 +27,4 @@ Only the positive error codes are listed below, although the custom device is al
 | `732050` | `732074` | [SLSC Switch](https://github.com/ni/niveristand-routing-and-faulting-custom-device) |
 | `732100` | `732124` | [NI-SWITCH](https://github.com/ni/niveristand-routing-and-faulting-custom-device) |
 | `732150` | `732174` | [Scan Engine and EtherCAT](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device) |
+| `732200` | `732224` | [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools) |
