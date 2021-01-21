@@ -11,6 +11,9 @@ path = 'inline-async-api\Source\Project.lvproj'
 [projects.advanced_sysdef_api]
 path = 'advanced-sysdef-api\Source\Advanced System Definition API.lvproj'
 
+[projects.custom_device_serialization]
+path = 'custom-device-serialization\Source\Custom Device Serialization.lvproj'
+
 [projects.error_api]
 path = 'error-api\Source\VeriStand Error API.lvproj'
 
@@ -44,6 +47,13 @@ build_spec = 'Move Source'
 name = 'Advanced SysDef API'
 type = 'lvBuildSpec'
 project = '{advanced_sysdef_api}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[[build.steps]]
+name = 'Custom Device Serialization'
+type = 'lvBuildSpec'
+project = '{custom_device_serialization}'
 target = 'My Computer'
 build_spec = 'Move Source'
 
