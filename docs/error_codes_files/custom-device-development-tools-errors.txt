@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-custom-device-development-tools/
+</nicomment>
+<nierror code="-732200">
+The specified system storage file could not be saved.
+</nierror>
+<nierror code="-732201">
+The specified system storage file could not be loaded.
+</nierror>
+<nierror code="-732202">
+Failed to attach the specified node to the system definition.
+</nierror>
+</nidocument>

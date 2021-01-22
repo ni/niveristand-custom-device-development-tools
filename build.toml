@@ -95,9 +95,14 @@ build_spec = 'Move Source'
 [[package]]
 type = 'nipkg'
 control_file = 'control'
-payload_dir = 'Built\Common'
-install_destination = 'ni-paths-LV{labview_version}DIR'
 package_output_dir = 'Built'
+
+[package.payload_map]
+'Built\\Common' = 'ni-paths-LV{labview_version}DIR'
+
+# TOML requires unique keys, but these resolve to the same path on disk
+'docs\\error_codes_files' = 'ni-paths-LV{labview_version}DIR\resource\errors\English'
+'.\docs\\error_codes_files' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{labview_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
