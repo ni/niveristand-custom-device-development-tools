@@ -29,4 +29,4 @@ Only the positive error codes are listed below, although the custom device is al
 | `732150` | `732174` | [Scan Engine and EtherCAT](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device) |
 | `732200` | `732224` | [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools) |
 | `732250` | `732274` | [Ballard ARINC-429](https://github.com/ni/niveristand-ballard-arinc429-custom-device) |
-| `732275` | `732299` | [Encoding and Decoding Library](https://github.com/ni/niveristand-ballard-arinc429-custom-device/tree/main/Source/Encoding%20and%20Decoding) |
+| `732300` | `732324` | [Encoding and Decoding Library](https://github.com/ni/niveristand-ballard-arinc429-custom-device/tree/main/Source/Encoding%20and%20Decoding) |
