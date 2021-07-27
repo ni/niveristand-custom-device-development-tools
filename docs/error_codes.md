@@ -30,3 +30,4 @@ Only the positive error codes are listed below, although the custom device is al
 | `732200` | `732224` | [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools) |
 | `732250` | `732274` | [Ballard ARINC-429](https://github.com/ni/niveristand-ballard-arinc429-custom-device) |
 | `732300` | `732324` | [Encoding and Decoding Library](https://github.com/ni/niveristand-ballard-arinc429-custom-device/tree/main/Source/Encoding%20and%20Decoding) |
+| `732350` | `732374` | [Ballard MIL-STD 1553](https://github.com/ni/niveristand-ballard-milStd1553-custom-device) |
