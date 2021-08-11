@@ -13,15 +13,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support Files" Type="Folder">
-			<Item Name="EncodingAndDecoding-errors.txt" Type="Document" URL="../Docs/EncodingAndDecoding-errors.txt"/>
+			<Item Name="EncodingAndDecoding-errors.txt" Type="Document" URL="../../Docs/EncodingAndDecoding-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="BCD.lvclass" Type="LVClass" URL="../Tests/BCD/BCD.lvclass"/>
-			<Item Name="BNR.lvclass" Type="LVClass" URL="../Tests/BNR/BNR.lvclass"/>
-			<Item Name="Discrete.lvclass" Type="LVClass" URL="../Tests/Discrete/Discrete.lvclass"/>
-			<Item Name="Parity.lvclass" Type="LVClass" URL="../Tests/Parity/Parity.lvclass"/>
+			<Item Name="BCD.lvclass" Type="LVClass" URL="../../Tests/BCD/BCD.lvclass"/>
+			<Item Name="BNR.lvclass" Type="LVClass" URL="../../Tests/BNR/BNR.lvclass"/>
+			<Item Name="Discrete.lvclass" Type="LVClass" URL="../../Tests/Discrete/Discrete.lvclass"/>
+			<Item Name="Parity.lvclass" Type="LVClass" URL="../../Tests/Parity/Parity.lvclass"/>
 		</Item>
-		<Item Name="Common Post-Build Action.vi" Type="VI" URL="../../shared/Common Post-Build Action.vi"/>
+		<Item Name="Common Post-Build Action.vi" Type="VI" URL="../../../shared/Common Post-Build Action.vi"/>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../Encoding and Decoding.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -316,7 +316,7 @@
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 			</Item>
-			<Item Name="Copy Built Files.vi" Type="VI" URL="../../shared/Copy Built Files.vi"/>
+			<Item Name="Copy Built Files.vi" Type="VI" URL="../../../shared/Copy Built Files.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SourceDistribution" Type="Source Distribution">
@@ -336,19 +336,24 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SourceDistribution</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Common Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4E54B0E3-999A-45D7-B509-1838338C18B7}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SourceDistribution</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SourceDistribution/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93D9D5F8-3E0A-4774-A5CF-7F72E1F9945D}</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Support Files</Property>
+				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Encoding and Decoding</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7DC4029C-0D69-466F-B2F8-A432A0CAD88A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Encoding and Decoding.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
@@ -369,7 +374,9 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Common Post-Build Action.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/EncodingAndDecoding-errors.txt</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
