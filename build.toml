@@ -2,6 +2,9 @@
 build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
+[projects.encoding_decoding]
+path = 'encoding-decoding\Encoding and Decoding.lvproj'
+
 [projects.lv_memory_manager]
 path = 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
 
@@ -35,6 +38,13 @@ type = 'lvBuildSpec'
 project = '{lv_memory_manager}'
 target = 'My Computer'
 build_spec = 'Build Source'
+
+[[build.steps]]
+name = 'Encoding and Decoding Library'
+type = 'lvBuildSpec'
+project = '{encoding_decoding}'
+target = 'My Computer'
+build_spec = 'SourceDistribution'
 
 [[build.steps]]
 name = 'Inline Async API'
