@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-ballard-arinc429-custom-device/
+</nicomment>
+<nierror code="-732301">
+Data loss occurred during encoding. Value range is limited by the number of bits.
+</nierror>
+<nierror code="-732302">
+A value less than zero cannot be encoded in an unsigned parameter.
+</nierror>
+</nidocument>
