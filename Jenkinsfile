@@ -2,7 +2,10 @@
 //Leave the above line alone.  It identifies this as a groovy script.
 @Library('vs-build-tools') _
 
-List<String> lvVersions = ['2018', '2019', '2020']
+def lvVersions = [
+  32 : ['2019', '2020'],
+  64 : ['2021']
+]
 
+diffPipeline(lvVersions)
 ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
-diffPipeline(lvVersions[0])

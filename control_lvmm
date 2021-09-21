@@ -12,4 +12,4 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: LabVIEW Memory Management Tools for LabVIEW {labview_version}
-Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0)
