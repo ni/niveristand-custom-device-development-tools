@@ -108,17 +108,17 @@ control_file = 'control'
 package_output_dir = 'Built'
 
 [package.payload_map]
-'Built\\Common' = 'ni-paths-LV{labview_version}DIR'
+'Built\\Common' = 'ni-paths-LV{labview_version}DIR{nipaths_64_bitness_suffix}'
 
 # TOML requires unique keys, but these resolve to the same path on disk
-'docs\\error_codes_files' = 'ni-paths-LV{labview_version}DIR\resource\errors\English'
-'.\docs\\error_codes_files' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{labview_version}\errors\English'
+'docs\\error_codes_files' = 'ni-paths-LV{labview_version}DIR{nipaths_64_bitness_suffix}\resource\errors\English'
+'.\docs\\error_codes_files' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{labview_version}\errors\English'
 
 [[package]]
 type = 'nipkg'
 control_file = 'control_lvmm'
 payload_dir = 'Built\LVMM'
-install_destination = 'ni-paths-LV{labview_version}DIR'
+install_destination = 'ni-paths-LV{labview_version}DIR{nipaths_64_bitness_suffix}'
 package_output_dir = 'Built'
 
 [notification]
