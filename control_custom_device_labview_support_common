@@ -12,4 +12,4 @@ XB-UserVisible: no
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
 XB-DisplayName: VeriStand Custom Device Common Files for LabVIEW {veristand_version}
-Depends: {AUTOVERSION_ni-labview-{labview_version}-x86}, {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0)
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
