@@ -121,5 +121,12 @@ payload_dir = 'Built\LVMM'
 install_destination = 'ni-paths-LV{labview_version}DIR{nipaths_64_bitness_suffix}'
 package_output_dir = 'Built'
 
+[[package]]
+type = 'nipkg'
+control_file = 'control_custom_device_labview_support_common'
+payload_dir = 'Built\LVCommon'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}'
+package_output_dir = 'Built'
+
 [notification]
 type = 'teams'
