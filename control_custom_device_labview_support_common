@@ -1,0 +1,15 @@
+Package: ni-veristand-{veristand_version}-custom-device-labview-support-common
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides common LabVIEW support for custom devices for NI VeriStand {veristand_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: no
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: VeriStand Custom Device Common Files for LabVIEW {veristand_version}
+Depends: ni-labview-{labview_version}{pkg_x86_bitness_suffix} (>= {labview_short_version}.0.0), ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
