@@ -32,6 +32,9 @@ path = 'hardware-discovery\Source\Hardware Resource Discovery.lvproj'
 [projects.network_comm]
 path = 'network-comm\Source\VeriStand Addon Network Comm.lvproj'
 
+[projects.lv_common]
+path = 'custom-device-labview-common\Source\Custom Device Common.lvproj'
+
 [[build.steps]]
 name = 'LabVIEW Memory Manager'
 type = 'lvBuildSpec'
@@ -99,6 +102,13 @@ build_spec = 'Move Source'
 name = 'Network Comm'
 type = 'lvBuildSpec'
 project = '{network_comm}'
+target = 'My Computer'
+build_spec = 'Move Source'
+
+[[build.steps]]
+name = 'LabVIEW Common'
+type = 'lvBuildSpec'
+project = '{lv_common}'
 target = 'My Computer'
 build_spec = 'Move Source'
 
