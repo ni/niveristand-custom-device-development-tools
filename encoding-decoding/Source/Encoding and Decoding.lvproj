@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Library" Type="Folder">
+			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../Encoding and Decoding.lvlib"/>
+		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="EncodingAndDecoding-errors.txt" Type="Document" URL="../../Docs/EncodingAndDecoding-errors.txt"/>
 		</Item>
@@ -22,7 +25,6 @@
 			<Item Name="Parity.lvclass" Type="LVClass" URL="../../Tests/Parity/Parity.lvclass"/>
 		</Item>
 		<Item Name="Common Post-Build Action.vi" Type="VI" URL="../../../shared/Common Post-Build Action.vi"/>
-		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../Encoding and Decoding.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
@@ -351,12 +353,11 @@
 				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Encoding and Decoding</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7DC4029C-0D69-466F-B2F8-A432A0CAD88A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{12DAAFA5-E823-473C-8116-47F026E8B470}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Encoding and Decoding.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Library/Encoding and Decoding.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -376,7 +377,14 @@
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/EncodingAndDecoding-errors.txt</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Library</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
