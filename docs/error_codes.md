@@ -33,3 +33,4 @@ Only the positive error codes are listed below, although the custom device is al
 | `732350` | `732374` | [Ballard MIL-STD 1553](https://github.com/ni/niveristand-ballard-milStd1553-custom-device) |
 | `732400` | `732424` | [Embedded Data Logger](https://github.com/ni/niveristand-embedded-data-logger-custom-device) |
 | `732450` | `732474` | NI-RDMA |
+| `732500` | `732524` | [AIM ARINC-429](https://github.com/ni/niveristand-aim-arinc429-custom-device) |
