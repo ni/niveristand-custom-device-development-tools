@@ -4,7 +4,7 @@
 
 def lvVersions = [
   32 : ['2019', '2020'],
-  64 : ['2021']
+  64 : ['2021', '2023']
 ]
 
 diffPipeline(lvVersions)
