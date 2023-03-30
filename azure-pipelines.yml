@@ -80,7 +80,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Move Source'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '23.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
