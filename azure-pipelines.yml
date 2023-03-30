@@ -1,0 +1,105 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - release/*
+
+resources:
+  repositories:
+    - repository: niveristand-custom-device-build-tools
+      type:       github
+      ref:        main
+      endpoint:   nivs-custom-devices
+      name:       ni/niveristand-custom-device-build-tools
+
+stages:
+  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2020'
+          bitness: '32bit'
+        - version: '2021'
+          bitness: '64bit'
+        - version: '2023'
+          bitness: '64bit'
+
+      buildSteps:
+        - projectLocation: 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Build Source'
+
+        - projectLocation: 'encoding-decoding\Source\Encoding and Decoding.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'SourceDistribution'
+
+        - projectLocation: 'inline-async-api\Source\Project.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'advanced-sysdef-api\Source\Advanced System Definition API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'custom-device-serialization\Source\Custom Device Serialization.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'error-api\Source\VeriStand Error API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'import-export\Source\VeriStand Custom Device Import Export Tool.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'html-help-tools\Source\Compiled HTML Menu Tool\Compile HTML Menu Tool.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'hardware-discovery\Source\Hardware Resource Discovery.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'network-comm\Source\VeriStand Addon Network Comm.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'custom-device-labview-common\Source\Custom Device Common.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+      releaseVersion: '23.5.0'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+
+      packages:
+        - controlFileName: 'control'
+          payloadMaps:
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
+              payloadLocation: 'Built\Common'
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
+              payloadLocation: 'docs\error_codes_files'
+            - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+              payloadLocation: 'docs\error_codes_files'
+
+        - controlFileName: 'control_lvmm'
+          payloadMaps:
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
+              payloadLocation: 'Built\LVMM'
+
+        - controlFileName: 'control_custom_device_labview_support_common'
+          payloadMaps:
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
+              payloadLocation: 'Built\LVCommon'
