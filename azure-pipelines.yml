@@ -24,6 +24,9 @@ stages:
         - version: '2023'
           bitness: '64bit'
 
+      codegenVis:
+        - 'docs\error_codes_files\Copy Errors to Built Directory.vi'
+
       buildSteps:
         - projectLocation: 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
           buildOperation: 'ExecuteBuildSpec'
