@@ -91,18 +91,18 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
-              payloadLocation: 'Built\Common'
+              payloadLocation: 'Common'
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\resource\errors\English'
-              payloadLocation: 'docs\error_codes_files'
+              payloadLocation: 'Errors'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
-              payloadLocation: 'docs\error_codes_files'
+              payloadLocation: 'Errors'
 
         - controlFileName: 'control_lvmm'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
-              payloadLocation: 'Built\LVMM'
+              payloadLocation: 'LVMM'
 
         - controlFileName: 'control_custom_device_labview_support_common'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
-              payloadLocation: 'Built\LVCommon'
+              payloadLocation: 'LVCommon'
