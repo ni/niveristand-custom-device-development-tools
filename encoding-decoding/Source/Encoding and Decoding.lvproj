@@ -343,7 +343,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Common Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4E54B0E3-999A-45D7-B509-1838338C18B7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built</Property>
@@ -352,8 +352,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Support Files</Property>
 				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Encoding and Decoding</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{12DAAFA5-E823-473C-8116-47F026E8B470}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Errors Directory</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Errors</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{815939AB-20E8-4500-8849-7182E5248046}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Library/Encoding and Decoding.lvlib</Property>
@@ -375,7 +377,7 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Common Post-Build Action.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/EncodingAndDecoding-errors.txt</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
