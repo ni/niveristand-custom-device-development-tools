@@ -351,11 +351,11 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Support Files</Property>
 				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Encoding and Decoding</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Common/vi.lib/NI/NI VeriStand Encoding and Decoding</Property>
 				<Property Name="Destination[3].destName" Type="Str">Errors Directory</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{815939AB-20E8-4500-8849-7182E5248046}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{27EEF59B-C9A7-45E1-BD9D-9C7BAEB04BA5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Library/Encoding and Decoding.lvlib</Property>
