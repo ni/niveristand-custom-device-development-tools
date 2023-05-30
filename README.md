@@ -10,6 +10,8 @@ The source version will increase over time as newer releases of VeriStand are re
 The following dependencies are used by some or all of the included components of this repository.
 
 ### VI Package Manager (hosted on the LabVIEW Tools Network)
+To quickly install all of the dependent packages, use the [VI Package](vi-packages/ni_lib_veristand_custom_device_dev_dependencies-1.0.0.4.vip) found in this repo. This is an empty package that depends on the files listed below, allowing you to install all packages for a specific version of LabVIEW with one installation.
+
 - jki_labs_tool_vi_tester-3.0.2.294-1.ogp
 - jki_lib_easyxml-3.0.0.170.vip
 - jki_lib_json_serialization-1.1.10.37.vip
