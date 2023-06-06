@@ -1,0 +1,17 @@
+This is a virtual package to install the various third-party dependencies necessary for developing VeriStand Custom Devices. These are consumed by at least one custom device found on github.com/NI. Currently included:
+- JKI Labs VI Tester
+- JKI JSON
+- JKI Serialization
+- JKI Unicode
+- EasyXML Toolkit for LabVIEW
+- NI AMC Library
+- NI GXML
+- NI Keyed Array Library
+- NI STM Library
+- NI String Tools Library
+- OpenG Application Control Library
+- OpenG Array Library
+- OpenG Error Library
+- OpenG File Library
+- OpenG LabVIEW Data Library
+- OpenG String Library
