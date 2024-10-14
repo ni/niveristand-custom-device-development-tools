@@ -23,6 +23,8 @@ stages:
           bitness: '64bit'
         - version: '2024'
           bitness: '64bit'
+        - version: '2025'
+          bitness: '64bit'
 
       codegenVis:
         - 'docs\error_codes_files\Copy Errors to Built Directory.vi'
@@ -83,7 +85,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Move Source'
 
-      releaseVersion: '24.0.0'
+      releaseVersion: '25.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
