@@ -36,4 +36,4 @@ Only the positive error codes are listed below, although the custom device is al
 | `732500` | `732524` | [AIM ARINC-429](https://github.com/ni/niveristand-aim-arinc429-custom-device) |
 | `732550` | `732574` | [AIM MIL-STD 1553](https://github.com/ni/niveristand-aim-milStd1553-custom-device) |
 | `732600` | `732624` | [SLSC EDS](https://github.com/ni/niveristand-slsc-eds-custom-device) |
-| `732650` | `732674` | [SoD Switch Custom Device](https://github.com/ni/niveristand-switch-custom-device) |
+| `732650` | `732674` | [SoD Switch](https://github.com/ni/niveristand-switch-custom-device) |
