@@ -17,11 +17,11 @@ stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
-        - version: '2023'
-          bitness: '64bit'
         - version: '2024'
           bitness: '64bit'
         - version: '2025'
+          bitness: '64bit'
+        - version: '2026'
           bitness: '64bit'
 
       codegenVis:
@@ -83,7 +83,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Move Source'
 
-      releaseVersion: '25.0.0'
+      releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
