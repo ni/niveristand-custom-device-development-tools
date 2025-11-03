@@ -2,7 +2,7 @@
 The **niveristand-custom-device-development-tools** repository provides a combination of dependencies commonly used in the development of custom devices. The intended audience includes custom device developers and integrators.
 
 ## Development Version
-LabVIEW 2023
+LabVIEW 2024
 
 The source version will increase over time as newer releases of VeriStand are released. A current version + three years back model will be used.
 
