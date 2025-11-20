@@ -55,6 +55,7 @@
 		<Item Name="SysDef.Property.Get.U16.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U16.vi"/>
 		<Item Name="SysDef.Property.Get.U32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U32.Array.vi"/>
 		<Item Name="SysDef.Property.Get.U32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U32.vi"/>
+		<Item Name="SysDef.Property.Get.U64.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U64.vi"/>
 		<Item Name="SysDef.Property.Get.Variant.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.Variant.vi"/>
 		<Item Name="SysDef.Property.Set.Boolean.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Boolean.vi"/>
 		<Item Name="SysDef.Property.Set.DBL.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.DBL.Array.vi"/>
@@ -69,6 +70,7 @@
 		<Item Name="SysDef.Property.Set.U16.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U16.vi"/>
 		<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
 		<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U32.vi"/>
+		<Item Name="SysDef.Property.Set.U64.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U64.vi"/>
 		<Item Name="SysDef.Property.Set.Variant.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Variant.vi"/>
 		<Item Name="SysDef.Search.GUID.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUID.vi"/>
 		<Item Name="SysDef.Search.GUIDs.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUIDs.vi"/>
@@ -97,10 +99,8 @@
 		<Item Name="SysDef.Item.Remove.vi" Type="VI" URL="../SysDef.Item.Remove.vi"/>
 		<Item Name="SysDef.Node.Info.vi" Type="VI" URL="../SysDef.Node.Info.vi"/>
 		<Item Name="SysDef.Node.Pointer.Get.vi" Type="VI" URL="../SysDef.Node.Pointer.Get.vi"/>
-		<Item Name="SysDef.Property.Get.U64.vi" Type="VI" URL="../SysDef.Property.Get.U64.vi"/>
 		<Item Name="SysDef.Property.Get.vi" Type="VI" URL="../SysDef.Property.Get.vi"/>
 		<Item Name="SysDef.Property.Remove.vi" Type="VI" URL="../SysDef.Property.Remove.vi"/>
-		<Item Name="SysDef.Property.Set.U64.vi" Type="VI" URL="../SysDef.Property.Set.U64.vi"/>
 		<Item Name="SysDef.Property.Set.vi" Type="VI" URL="../SysDef.Property.Set.vi"/>
 		<Item Name="SysDef.Rename.vi" Type="VI" URL="../SysDef.Rename.vi"/>
 		<Item Name="SysDef.Search.vi" Type="VI" URL="../SysDef.Search.vi"/>
