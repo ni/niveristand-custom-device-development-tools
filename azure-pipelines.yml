@@ -82,6 +82,11 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Move Source'
+          
+        - projectLocation: 'runtime-configuration-file-api\Source\Runtime Configuration File API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
