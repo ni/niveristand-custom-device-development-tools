@@ -87,6 +87,11 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Move Source'
+          exclusions:
+            - version: '2024'
+            bitness: '64bit'
+            - version: '2025'
+            bitness: '64bit'
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
