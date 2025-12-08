@@ -59,13 +59,13 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Runtime Configuration File API</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Menus Directory</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/VeriStand Development Tools</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C45AE9AE-F3F3-4382-A90A-E0EFB6C6867D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13421D47-A362-4B52-868B-F707D3935D88}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Runtime Configuration File API.lvlib</Property>
