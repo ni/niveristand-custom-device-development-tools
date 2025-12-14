@@ -14,5 +14,7 @@
 		<Item Name="NI VeriStand - Get Aliases.vi" Type="VI" URL="../NI VeriStand - Get Aliases.vi"/>
 		<Item Name="NI VeriStand - Create and Load Runtime Configuration File.vi" Type="VI" URL="../NI VeriStand - Create and Load Runtime Configuration File.vi"/>
 		<Item Name="NI VeriStand - Load Runtime Configuration File.vi" Type="VI" URL="../NI VeriStand - Load Runtime Configuration File.vi"/>
+		<Item Name="NI VeriStand - Close Runtime Confgiuration Ref.vi" Type="VI" URL="../NI VeriStand - Close Runtime Confgiuration Ref.vi"/>
 	</Item>
+	<Item Name="Convert .NET Error to LabVIEW Error.vi" Type="VI" URL="../Convert .NET Error to LabVIEW Error.vi"/>
 </Library>
