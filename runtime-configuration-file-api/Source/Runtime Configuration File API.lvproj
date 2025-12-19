@@ -62,22 +62,23 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">API Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/vi.lib/NI/NI VeriStand Runtime Configuration File API</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">Menus Directory</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/VeriStand Development Tools</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9B821F9A-CE64-451A-AD66-DD76C6AA688F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CD26FE1D-C779-433A-B524-6594BC7EDFF8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Runtime Configuration File API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Menus</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
