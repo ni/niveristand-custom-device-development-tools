@@ -116,3 +116,24 @@ stages:
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
               payloadLocation: 'LVCommon'
+
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2026'
+          bitness: '64bit'
+
+      buildSteps:
+        - projectLocation: 'runtime-configuration-file-api\Source\Runtime Configuration File API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
+
+      releaseVersion: '26.0.0'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
