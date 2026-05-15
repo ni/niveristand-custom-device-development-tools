@@ -117,7 +117,7 @@ stages:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
               payloadLocation: 'LVCommon'
 
-  - template: azure-templates/linux-satge.yml@niveristand-custom-device-build-tools
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
         - version: '2026'
@@ -128,11 +128,6 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Move Source'
-          exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
