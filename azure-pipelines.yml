@@ -124,6 +124,61 @@ stages:
           bitness: '64bit'
 
       buildSteps:
+        - projectLocation: 'lv-memory-manager\LabVIEW Memory Manager.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Build Source'
+
+        - projectLocation: 'encoding-decoding\Source\Encoding and Decoding.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'SourceDistribution'
+
+        - projectLocation: 'inline-async-api\Source\Project.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'advanced-sysdef-api\Source\Advanced System Definition API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'custom-device-serialization\Source\Custom Device Serialization.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'error-api\Source\VeriStand Error API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'import-export\Source\VeriStand Custom Device Import Export Tool.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'html-help-tools\Source\Compiled HTML Menu Tool\Compile HTML Menu Tool.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'hardware-discovery\Source\Hardware Resource Discovery.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'network-comm\Source\VeriStand Addon Network Comm.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+
+        - projectLocation: 'custom-device-labview-common\Source\Custom Device Common.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+          
         - projectLocation: 'runtime-configuration-file-api\Source\Runtime Configuration File API.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
