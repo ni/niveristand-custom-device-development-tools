@@ -185,7 +185,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
 
-      - id: 'custom_device_common
+      - id: 'custom_device_common'
         projectLocation: 'custom-device-labview-common\Source\Custom Device Common.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
