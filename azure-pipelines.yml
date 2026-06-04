@@ -197,7 +197,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
         
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       branch: 'main'
       debugBuild: 'no'
       buildOutputLocation: 'Built'
