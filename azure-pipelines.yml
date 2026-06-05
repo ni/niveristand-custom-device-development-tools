@@ -93,7 +93,7 @@ stages:
             - version: '2025'
               bitness: '64bit'
 
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
 
@@ -197,7 +197,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
         
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       branch: 'main'
       debugBuild: 'no'
       buildOutputLocation: 'Built'
