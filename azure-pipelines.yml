@@ -96,6 +96,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+      repoName: 'niveristand-custom-device-development-tools'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
