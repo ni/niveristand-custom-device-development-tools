@@ -204,3 +204,4 @@ stages:
       debugBuild: 'no'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+      repoName: 'niveristand-custom-device-development-tools'
