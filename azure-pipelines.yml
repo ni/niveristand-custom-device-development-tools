@@ -92,6 +92,16 @@ stages:
               bitness: '64bit'
             - version: '2025'
               bitness: '64bit'
+        
+        - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Build PPL'
+
+        - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces Linux x64.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'RT PXI Target'
+          buildSpec: 'Build PPL'
 
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
