@@ -92,22 +92,30 @@ stages:
               bitness: '64bit'
             - version: '2025'
               bitness: '64bit'
-        
+          
         - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Build PPL'
-
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
+          
         - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces Linux x64.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'RT PXI Target'
           buildSpec: 'Build PPL'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
-      repoName: 'niveristand-custom-device-development-tools'
-      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
@@ -128,6 +136,11 @@ stages:
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
               payloadLocation: 'LVCommon'
+
+        - controlFileName: 'control_custom_device_interfaces'
+          payloadMaps:
+            - installLocation: 'ProgramFiles\NI\LVAddons\nivscustomdeviceexpress\1'
+              payloadLocation: 'CDInterfaces'
 
   - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
     parameters:
@@ -209,9 +222,8 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
         
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.0.0'
       branch: 'main'
       debugBuild: 'no'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
-      repoName: 'niveristand-custom-device-development-tools'
