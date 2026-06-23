@@ -92,20 +92,10 @@ stages:
               bitness: '64bit'
             - version: '2025'
               bitness: '64bit'
-          
+        
         - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
-          buildSpec: 'Build PPL'
-          exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
-          
-        - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces Linux x64.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'RT PXI Target'
           buildSpec: 'Build PPL'
           exclusions:
             - version: '2024'
@@ -116,6 +106,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+      repoName: 'niveristand-custom-device-development-tools'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
@@ -227,3 +219,4 @@ stages:
       debugBuild: 'no'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+      repoName: 'niveristand-custom-device-development-tools'
