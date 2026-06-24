@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="26008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">CustomDeviceInterfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../CustomDeviceInterfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Custom Device Interfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Custom Device Interfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*,!!!*Q(C=\:4"&lt;3*"%%5`+VP;+Y\!E%+F1!37S-!KB]$6]AF]NL1KS:?^EA)J6!KEQ-HX]:O?9J:&gt;L?"C3T[YGRK;8^66&lt;\K&lt;FFL\+6WJO^3OT\&lt;G\Y&lt;P)8A=&gt;;.`C"A?V_8K4PT(]2DUT`TO&lt;^?@]0`5\U\4D@80]&amp;^K/NO_`&gt;`_L_W`@,Q@,`]*0L&gt;*EU;+*2;99^&lt;?LEPU2%`U2%`U2!`U1!`U1!`U1(&gt;U2X&gt;U2X&gt;U2T&gt;U1T&gt;U1T&gt;U1W]&gt;8?B#&amp;TKLEB20#C6*EQ2*-#B+(AF0QJ0Q*$T]6-+4]#1]#5`#1YA3HI1HY5FY%B[G+?&amp;*?"+?B#@B)65DS&gt;&lt;2Y5FY3+_!*_!*?!+?A)?3#HA#A+"9E$B)!I9#:T!)?!+?A)?B!J[!*_!*?!)?X!JY!J[!*_!*?*D36C5;4&gt;`2Y3'.("[(R_&amp;R?"Q?5MPB=8A=(I@(Y;'=("[(RY&amp;Q#DL*1:!TS1FQ@DA]$A^@=HA=(I@(Y8&amp;Y=,5&gt;]L9S05X@U?%R?!Q?A]@A-8B))90(Y$&amp;Y$"[$B\1S?!Q?A]@A-8AI*90(Y$&amp;Y$"#D+/6F*$-G'E''90$Q;;@&amp;WCZ&amp;)\(7[[]Z(&amp;46!61&gt;,.7"52U%V1;L.E[V);K&amp;6CWA;G&amp;5,[R[%27AKL!KI3J1"ZZ\&lt;)&gt;NM47WQJ&lt;9!JNDUX\K"Q=?$A@N^XPN&gt;DNNNVONVWON6CMNFUMN&amp;AP.ZX..J^0RNLKF$WVSP*=?'7^?(W:0&gt;`?`HW^_T:\PXG;&lt;VZ&gt;:LR`^HW($P@16\E&lt;^5(&gt;ST&lt;.'\Y#W6&gt;)!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">637566976</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -23,15 +23,15 @@
 	</Item>
 	<Item Name="Get Channel Value by Data Reference.vi" Type="VI" URL="../Get Channel Value by Data Reference.vi">
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082138624</Property>
 	</Item>
 	<Item Name="Get Channel Values by Block Data Ref.vi" Type="VI" URL="../Get Channel Values by Block Data Ref.vi">
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
@@ -39,15 +39,15 @@
 	</Item>
 	<Item Name="Set Channel Value by Data Reference.vi" Type="VI" URL="../Set Channel Value by Data Reference.vi">
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082138624</Property>
 	</Item>
 	<Item Name="Set Channel Values by Block Data Ref.vi" Type="VI" URL="../Set Channel Values by Block Data Ref.vi">
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>

@@ -6,15 +6,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Custom Device" Type="Folder">
-		<Item Name="CustomDevice.lvclass" Type="LVClass" URL="../CustomDevice/CustomDevice.lvclass"/>
+		<Item Name="Custom Device.lvclass" Type="LVClass" URL="../CustomDevice/Custom Device.lvclass"/>
 	</Item>
 	<Item Name="Custom Device API" Type="Folder">
-		<Item Name="CustomDeviceAPI.lvclass" Type="LVClass" URL="../CustomDeviceAPI/CustomDeviceAPI.lvclass"/>
+		<Item Name="Custom Device API.lvclass" Type="LVClass" URL="../CustomDeviceAPI/Custom Device API.lvclass"/>
 	</Item>
 	<Item Name="Custom Device Deployment Hooks" Type="Folder">
-		<Item Name="CustomDeviceDeploymentHooks.lvclass" Type="LVClass" URL="../CustomDeviceDeploymentHooks/CustomDeviceDeploymentHooks.lvclass"/>
+		<Item Name="Custom Device Deployment Hooks.lvclass" Type="LVClass" URL="../CustomDeviceDeploymentHooks/Custom Device Deployment Hooks.lvclass"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
-		<Item Name="CustomDeviceUtility.lvclass" Type="LVClass" URL="../Utility/CustomDeviceUtility.lvclass"/>
+		<Item Name="Custom Device Utility.lvclass" Type="LVClass" URL="../Utility/Custom Device Utility.lvclass"/>
 	</Item>
 </Library>

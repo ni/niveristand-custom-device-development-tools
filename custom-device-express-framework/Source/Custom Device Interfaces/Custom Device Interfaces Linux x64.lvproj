@@ -65,7 +65,7 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="CustomDeviceInterfaces.lvlib" Type="Library" URL="../CustomDeviceInterfaces.lvlib"/>
+		<Item Name="Custom Device Interfaces.lvlib" Type="Library" URL="../Custom Device Interfaces.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Build PPL" Type="Packed Library">
@@ -81,8 +81,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{3303AAB0-8E2F-4A56-8F75-13119E01221A}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Targets/NI/RT/Linux/PXI/user.lib</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">CustomDeviceInterfaces_v1.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Targets/NI/RT/Linux/PXI/user.lib/CustomDeviceInterfaces_v1.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Custom Device Interfaces_v1.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -90,10 +90,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Targets/NI/RT/Linux/PXI/user.lib</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{82C57329-3C82-43A1-86B1-AB23B47390BE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B1502195-49F3-4BA8-BFC2-49C8A6783B49}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/CustomDeviceInterfaces.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Custom Device Interfaces.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -107,7 +107,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 NI (now part of Emerson)</Property>
 				<Property Name="TgtF_productName" Type="Str">Build PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9519BC36-3846-4064-B37F-D8C4E82F836E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CustomDeviceInterfaces_v1.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Custom Device Interfaces_v1.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="26008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">CustomDeviceInterfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../CustomDeviceInterfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Custom Device Interfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Custom Device Interfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\:1R4E*"%):`D33WX-!1&lt;T#.L1G."_!+UV027FD13USGJ_)+8''O1'X(&amp;:\@7Q9E-8EUGF#YS]#_@W:HPL?\L.4;P83H\F)&lt;$&lt;&lt;?X^60C_W/Q_.DC_I`&amp;6H$U&gt;H%U8&gt;1_=`3H;&lt;_H$^=`_1@ZL`5..D_`@`_[`:@0N[PF`]%@^OEGU;+*2;99^&lt;?LEPU2%`U2%`U2!`U1!`U1!`U1(&gt;U2X&gt;U2X&gt;U2T&gt;U1T&gt;U1T&gt;U1W]&gt;8?B#&amp;TKLEB20#C6*EQ2*-#B+PB+?B#@B38BY6-+4]#1]#5`#1YA3HI1HY5FY%B[G+?&amp;*?"+?B#@B)65DS&gt;&lt;2Y5FY3+_!*_!*?!+?A)?3#HA#A+"9E$B)!I9#:T!)?!+?A)?B!J[!*_!*?!)?X!JY!J[!*_!*?*D36C5;4&gt;`2Y3'.("[(R_&amp;R?"Q?5MPB=8A=(I@(Y;'=("[(RY&amp;Q#DL*1:!TS1FQ(BQ?BY=@/4Q/D]0D]$A]O.I/?6O:HK&lt;P[0!90!;0Q70Q'$SEE-&amp;D]"A]"I`"1VI:0!;0Q70Q'$S5EM&amp;D]"A]"IB2F0)SEBE4D3"$-(DYN..C&lt;:?CE6DL^&gt;=](&amp;46!61&gt;,.7"52U%V1;L.E[V);K&amp;6CWA;G&amp;5,[R[%27AKL!KI3J1?\ZXW"&lt;&lt;9%NMA=WQ+4&lt;"RPX58Q\=\`@;\8&lt;;&lt;L@;&lt;$:;,J&gt;;,";;T7;;4K?;4#9;D]?HW_K"@GAXRXPJF@(\U_@]&lt;&lt;V[74V_T&amp;@LV400T\V_^0_&amp;(?[F;\A&lt;&gt;;PO\*JHD&lt;Y!H:"&lt;^A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">637566976</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
