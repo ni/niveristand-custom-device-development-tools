@@ -13,6 +13,13 @@ resources:
       endpoint:   nivs-custom-devices
       name:       ni/niveristand-custom-device-build-tools
 
+schedules:
+- cron: '30 12 * * *'
+  displayName: Daily 6 PM (IST) build
+  branches:
+    include:
+    - main
+
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
