@@ -113,6 +113,26 @@ stages:
             - version: '2025'
               bitness: '64bit'
 
+        - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express).lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Build PPL'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
+          
+        - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express) Linux x64.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'RT PXI Target'
+          buildSpec: 'Build PPL'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
+
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
