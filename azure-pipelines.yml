@@ -116,7 +116,7 @@ stages:
         - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express).lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
-          buildSpec: 'Build PPL'
+          buildSpec: 'Move Source'
           exclusions:
             - version: '2024'
               bitness: '64bit'
@@ -126,7 +126,7 @@ stages:
         - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express) Linux x64.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'RT PXI Target'
-          buildSpec: 'Build PPL'
+          buildSpec: 'Move Source'
           exclusions:
             - version: '2024'
               bitness: '64bit'
