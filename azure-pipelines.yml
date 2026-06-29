@@ -97,6 +97,12 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Build PPL'
+          postBuildScript: |
+            $src = "$(CD.Workspace)\$(CD.Repository)\custom-device-express-framework\Source\Built\Targets\win64\user.lib\Custom Device Interfaces_v1.lvlibp"
+            $dest = "C:\Program Files\National Instruments\LabVIEW $(CD.LabVIEW.Version)\user.lib"
+            Write-Host "Copying Custom Device Interfaces PPL to LabVIEW user.lib..."
+            Copy-Item -Path $src -Destination $dest -Recurse -Force
+            Write-Host "Copy complete."
           exclusions:
             - version: '2024'
               bitness: '64bit'
@@ -107,6 +113,12 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'RT PXI Target'
           buildSpec: 'Build PPL'
+          postBuildScript: |
+            $src = "$(CD.Workspace)\$(CD.Repository)\custom-device-express-framework\Source\Built\Targets\NI\RT\Linux\PXI\user.lib\Custom Device Interfaces_v1.lvlibp"
+            $dest = "C:\Program Files\National Instruments\LabVIEW $(CD.LabVIEW.Version)\Targets\NI\RT\Linux\PXI\user.lib"
+            Write-Host "Copying Linux Custom Device Interfaces PPL to LabVIEW RT user.lib..."
+            Copy-Item -Path $src -Destination $dest -Recurse -Force
+            Write-Host "Copy complete."
           exclusions:
             - version: '2024'
               bitness: '64bit'
