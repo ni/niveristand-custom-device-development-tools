@@ -1,6 +1,8 @@
 # Custom Device Express Framework
 
-A framework that provides interfaces and implementations for building NI VeriStand Custom Devices using the inline async execution pattern.
+The Custom Device Express framework is an enhanced Custom Device development framework that auto-generates the System Explorer UI, Scripting API, orchestration code, serialization & deserialization of deployment settings and a standalone engine debugger based on the input provided in wizard.
+
+**custom-device-express-framework** component in niveristand-custom-device-development-tools repository provides Custom Device Interfaces and NIVS Inline Async APIs that are commonly used in the development of custom device using the Custom Device Express Framework.
 
 ## Components
 
