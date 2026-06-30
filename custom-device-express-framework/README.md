@@ -21,5 +21,5 @@ The Inline Async API provides a framework for creating an inline addon with asyn
 
 The library contains two components:
 
-- **VS Inline Async API (Express)** — The top-level async engine class. Implements the Custom Device lifecycle (`Initialize`, `Start`, `Read Data from HW`, `Write Data to HW`, `Close`) and manages async process coordination (`WaitOnStart`, `Report`).
-- **Data Access Engine (Express)** — Manages channel data access for the async process. Supports read, write, and read/write channel modes with buffering, committing, and lookup operations.
+- **VS Inline Async API (Express)** 
+- **Data Access Engine (Express)** 
