@@ -1,105 +1,122 @@
 # NI VeriStand Tracing API
 
-The **NI VeriStand Tracing API** provides a set of APIs for adding tracing to NI VeriStand Custom Devices. The APIs allow Custom Device developers to record user-space events within timed structures and custom execution tracks, enabling performance analysis, timing measurements, and execution-flow visualization through traces.
+The **NI VeriStand Tracing API** provides a set of APIs for adding tracing to NI VeriStand Custom Devices. These APIs allow Custom Device developers to record user-space events within timed structures and custom execution tracks, enabling performance analysis, timing measurements, and execution-flow visualization through traces.
+
 
 ---
 
-## How to Use the APIs
+# Using the APIs
 
-1. The APIs are available in the **NI VeriStand Tracing API** subpalette under **VeriStand Development Tools** in the LabVIEW Functions palette.
-![NI VeriStand Tracing API Palette](Images/Tracing_API_Palette_Hierarchy.png)
-2. Add the required APIs to your Custom Device implementation and use the appropriate APIs to record events, depending on whether the code executes inside or outside Timed Structures.
-3. Build the Custom Device with tracing enabled.
+The APIs are available in the **NI VeriStand Tracing API** subpalette under **VeriStand Development Tools** in the LabVIEW Functions palette.
 
-### Custom Device Express Projects
+![NI VeriStand Tracing API Palette](Images/NIVeriStand_Tracing_API_Palette_Hierarchy.png)
 
-Custom Device Express projects automatically include a dedicated build specification for tracing. To generate a trace-enabled Custom Device, build using the Perfetto build specification provided in the project.
+Use the APIs appropriate to the execution context:
 
-### Existing Custom Devices
-
-Trace logging is disabled by default. To build a trace-enabled version of an existing Custom Device, add the following **Conditional Disable Symbol** to the project:
-
-- **Symbol Name:** `ENABLE_PERFETTO`
-- **Value:** `TRUE`
-
----
+- Use **Event Start** and **Event Stop** when code executes inside a Timed Loop or Timed Sequence.
+- Use **Register Track**, **Event Start On Track**, **Event Stop On Track**, and **Unregister Track** when code executes outside timed structures or when events need to be displayed on a custom execution track.
 
 ## APIs for Recording Events Inside Timed Structures
 
-These APIs are used to record events that execute within Timed Loops or Timed Sequences.
-
 ### Event Start
 
-Starts an event on the current timed structure thread.
+Starts a trace event on the current timed structure.
 
-**Parameters**  
-• **Event Name** – Name of the event displayed in the trace.
+Use this VI when you want to begin measuring the execution of a section of code running inside a Timed Loop, Timed Sequence, or another timed execution context. The event appears on the trace track associated with the timed structure.
 
-**Notes**  
-• Must be paired with `Event Stop`.  
-• Events appear on the track corresponding to the timed structure name.
+**Event Start** must be paired with **Event Stop**.
 
 ---
 
 ### Event Stop
 
-Ends the active event started using `Event Start`.
+Ends the active trace event started by **Event Start**.
 
-**Parameters**  
-• None.
-
----
+Use this VI at the end of the code section being measured to record the event duration in the trace.
 
 ### Note
 
-`Event Start` and `Event Stop` can be used inside the **Read Data from HW** and **Write Data to HW** cases of inline Hardware Interface custom devices, as these execute in the VeriStand engine's primary control loop.
+**Event Start** and **Event Stop** can also be used in the **Read Data from HW** and **Write Data to HW** cases of inline Hardware Interface custom devices, since these execute within the VeriStand engine's primary control loop.
+
+![Event Start Stop in Timing Loop](Images/Event_Start_Stop_in_Timing_Structure.png)
 
 ---
 
 ## APIs for Recording Events Outside Timed Structures
 
-These APIs are used to record events outside Timed Loops or when events need to be associated with custom tracks.
-
 ### Register Track
 
-Creates a custom track that appears as a separate timeline in the trace.
+Creates a custom trace track that appears as a separate timeline in the trace viewer.
 
-**Parameters**  
-• **Track ID** – Unique identifier for the track.  
-• **Track Name** – Display name of the track shown in the trace.
+Use this VI before recording events from execution contexts that are not associated with a timed structure, such as background processes, asynchronous tasks, or custom threads.
+
+A track must be registered before events can be recorded on it.
 
 ---
 
 ### Event Start On Track
 
-Starts an event on a registered custom track.
+Starts a trace event on a previously registered custom track.
 
-**Parameters**  
-• **Track ID** – Identifier of the registered track.  
-• **Event Name** – Name of the event displayed in the trace.
+Use this VI when you want to measure the execution time of code running outside a timed structure and display it on a specific custom track in the trace.
+
+**Event Start On Track** must be paired with **Event Stop On Track**.
 
 ---
 
 ### Event Stop On Track
 
-Ends the active event on the specified custom track.
+Ends the active event on a registered custom track.
 
-**Parameters**  
-• **Track ID** – Identifier of the track on which the event was started.
+Use this VI at the end of the code section being measured to record the event duration on the custom moves a previously registered custom track.
 
----
-
-### Unregister Track
-
-Removes a previously registered custom track.
-
-**Parameters**  
-• **Track ID** – Identifier of the track to unregister.
-
----
+Use this VI when tracing on the track is complete and the track is no longer needed.
 
 ### Note
 
-• `Register Track` must be called before using `Event Start On Track` or `Event Stop On Track`.  
-• `Event Start On Track` and `Event Stop On Track` must be used as a pair.  
-• Unregister tracks when event recording is complete.
+- Call **Register Track** before recording events on a custom track.
+- **Event Start On Track** and **Event Stop On Track** must always be used as a pair.
+- Unregister custom tracks when tracing activities are complete.
+
+![Event Start Stop in outside Timing Loop](Images/Event_Start_Stop_On Track_Async.png)
+
+---
+
+# Building a Trace-Enabled Custom Device
+
+Trace logging is disabled by default.
+
+To build a trace-enabled Custom Device:
+
+1. Open **Project Properties**.
+2. Add the following **Conditional Disable Symbols**:
+
+   - **Symbol Name:** `ENABLE_PERFETTO`
+   - **Value:** `TRUE`
+
+3. Build the Custom Device using the project's build specification.
+
+When the `ENABLE_PERFETTO` symbol is set to `TRUE`, the build includes the required Perfetto tracing libraries, producing a trace-enabled Custom Device capable of generating trace data for analysis.
+
+---
+
+# Generating and Analyzing Traces
+
+## Trace Generation
+
+1. Tracing begins when the system definition is deployed.
+2. Tracing continues while the system is running and records events generated by the NI VeriStand Tracing API.
+3. Tracing ends when the system definition is undeployed.
+4. The generated trace file is written to:
+
+   ```text
+   /home/lvuser
+   ```
+
+## Trace Analysis
+
+1. Copy the generated trace file from the target to the local computer using a file transfer method such as `scp`.
+2. Open https://ui.perfetto.dev/.
+3. Load the trace file into the Perfetto UI for analysis.
+
+The Perfetto UI runs entirely within the browser, and loading a trace file does not upload the trace contents to a remote server.
