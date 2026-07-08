@@ -1,7 +1,14 @@
 # NI VeriStand Tracing API
 
-The **NI VeriStand Tracing API** provides a set of APIs for adding tracing to NI VeriStand Custom Devices. These APIs allow Custom Device developers to record user-space events within timed structures and custom execution tracks, enabling performance analysis, timing measurements, and execution-flow visualization through traces.
+The **NI VeriStand Tracing API** provides a set of APIs for adding trace instrumentation to NI VeriStand Custom Devices. These APIs allow Custom Device developers to record user-space events within timed structures and custom execution tracks, enabling performance analysis, timing measurements, and execution-flow visualization through traces.
 
+The tracing implementation is based on **Perfetto**, an open-source tracing framework for performance instrumentation and trace analysis. Perfetto provides efficient event collection, storage, and visualization capabilities and is used by the NI VeriStand Tracing API to generate trace data for analysis.
+
+For more information about Perfetto, refer to the official Perfetto documentation:
+
+https://perfetto.dev/docs/
+
+> **Note:** The NI VeriStand Tracing API is supported only on **Linux Real-Time targets**. Trace generation and collection are not supported on Windows targets.
 
 ---
 
@@ -34,9 +41,11 @@ Ends the active trace event started by **Event Start**.
 
 Use this VI at the end of the code section being measured to record the event duration in the trace.
 
+**Event Stop** must be paired with **Event Start**.
+
 ### Note
 
-**Event Start** and **Event Stop** can also be used in the **Read Data from HW** and **Write Data to HW** cases of inline Hardware Interface custom devices, since these execute within the VeriStand engine's primary control loop.
+**Event Start** and **Event Stop** can also be used in the **Read Data from HW** and **Write Data to HW** cases of inline Hardware Interface Custom Devices, since these execute within the VeriStand engine's primary control loop.
 
 ![Event Start Stop in Timing Loop](Images/Event_Start_Stop_in_Timing_Structure.png)
 
@@ -68,17 +77,28 @@ Use this VI when you want to measure the execution time of code running outside 
 
 Ends the active event on a registered custom track.
 
-Use this VI at the end of the code section being measured to record the event duration on the custom moves a previously registered custom track.
+Use this VI at the end of the code section being measured to record the event duration on the custom track.
 
-Use this VI when tracing on the track is complete and the track is no longer needed.
+**Event Stop On Track** must be paired with **Event Start On Track**.
+
+---
+
+### Unregister Track
+
+Removes a previously registered custom trace track.
+
+Use this VI when tracing on the track is complete and the track is no longer needed. After a track has been unregistered, no additional events can be recorded on that track unless it is registered again.
+
+Unregistering tracks helps ensure that trace resources associated with the custom track are properly released when tracing activities have finished.
 
 ### Note
 
 - Call **Register Track** before recording events on a custom track.
 - **Event Start On Track** and **Event Stop On Track** must always be used as a pair.
-- Unregister custom tracks when tracing activities are complete.
+- Call **Unregister Track** when tracing activities on the custom track are complete.
+- Custom tracks are intended for asynchronous execution contexts and code that executes outside timed structures.
 
-![Event Start Stop in outside Timing Loop](Images/Event_Start_Stop_On Track_Async.png)
+![Event Start Stop in outside Timing Loop](Images/Event_Start_Stop_On_Track_Async.png)
 
 ---
 
@@ -120,3 +140,5 @@ When the `ENABLE_PERFETTO` symbol is set to `TRUE`, the build includes the requi
 3. Load the trace file into the Perfetto UI for analysis.
 
 The Perfetto UI runs entirely within the browser, and loading a trace file does not upload the trace contents to a remote server.
+
+![Perfetto Trace Example](Images/Perfetto_Trace_Example.png)
