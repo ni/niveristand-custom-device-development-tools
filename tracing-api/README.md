@@ -80,6 +80,7 @@ Use this VI when tracing on the track is complete and the track is no longer nee
 ### Note
 
 - Call **Register Track** before recording events on a custom track.
+- Use the **Track ID** output from **Register Track** as the input to **Event Start On Track**, **Event Stop On Track**, and **Unregister Track**.
 - **Event Start On Track** and **Event Stop On Track** must always be used as a pair.
 - Call **Unregister Track** when tracing activities on the custom track are complete.
 - Custom tracks are intended for asynchronous execution contexts and code that executes outside timed structures.
