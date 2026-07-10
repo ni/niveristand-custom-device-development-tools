@@ -43,6 +43,16 @@ stages:
           target: 'My Computer'
           buildSpec: 'Move Source'
 
+        - projectLocation: 'tracing-api\Source\Tracing API.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Move Source'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
+
         - projectLocation: 'advanced-sysdef-api\Source\Advanced System Definition API.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
