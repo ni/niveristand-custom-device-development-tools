@@ -32,6 +32,11 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Build Source'
+          exclusions:
+            - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
 
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
