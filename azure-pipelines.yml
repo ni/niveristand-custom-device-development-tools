@@ -136,8 +136,8 @@ stages:
     stageName: LinuxBuild
 
     # If your linux-stage.yml supports these parameters:
-    dependsOn: WindowsBuild
-    condition: succeeded()
+    dependsOn: 
+      - WindowsBuild
 
     lvVersionsToBuild:
       - version: '2026'
