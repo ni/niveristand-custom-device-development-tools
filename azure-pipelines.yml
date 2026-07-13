@@ -103,6 +103,58 @@ stages:
           - version: '2025'
             bitness: '64bit'
 
+      - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Build PPL'
+        postBuildScript: |
+          $src = "$(CD.Workspace)\$(CD.Repository)\custom-device-express-framework\Source\Custom Device Interfaces\Built\Targets\win64\user.lib\Custom Device Interfaces_v1.lvlibp"
+          $dest = "C:\Program Files\National Instruments\LabVIEW $(CD.LabVIEW.Version)\user.lib"
+          Write-Host "Copying Custom Device Interfaces PPL to LabVIEW user.lib..."
+          Copy-Item -Path $src -Destination $dest -Recurse -Force
+          Write-Host "Copy complete."
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
+      - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces Linux x64.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'RT PXI Target'
+        buildSpec: 'Build PPL'
+        postBuildScript: |
+          $src = "$(CD.Workspace)\$(CD.Repository)\custom-device-express-framework\Source\Custom Device Interfaces\Built\Targets\NI\RT\Linux\PXI\user.lib\Custom Device Interfaces_v1.lvlibp"
+          $dest = "C:\Program Files\National Instruments\LabVIEW $(CD.LabVIEW.Version)\Targets\NI\RT\Linux\PXI\user.lib"
+          Write-Host "Copying Linux Custom Device Interfaces PPL to LabVIEW RT user.lib..."
+          Copy-Item -Path $src -Destination $dest -Recurse -Force
+          Write-Host "Copy complete."
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
+      - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express).lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
+      - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express) Linux x64.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
     releaseVersion: '26.5.0'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
@@ -127,6 +179,16 @@ stages:
         payloadMaps:
           - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
             payloadLocation: 'LVCommon'
+
+      - controlFileName: 'control_custom_device_interfaces'
+        payloadMaps:
+          - installLocation: 'ProgramFiles\NI\LVAddons\nivscustomdeviceexpress\1'
+            payloadLocation: 'CDInterfaces'
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
 
 # =====================================================================
 # LINUX BUILD
