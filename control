@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides VeriStand custom device development tools for LabVIEW {labview_version}.
+Description: Provides VeriStand custom device development tools, including custom device interfaces and inline async APIs, for LabVIEW {labview_version}.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
