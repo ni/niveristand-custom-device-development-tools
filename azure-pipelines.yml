@@ -169,6 +169,8 @@ stages:
             payloadLocation: 'Errors'
           - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
             payloadLocation: 'Errors'
+          - installLocation: 'ProgramFiles\NI\LVAddons\nivscustomdeviceexpress\1'
+            payloadLocation: 'CDInterfaces'
 
       - controlFileName: 'control_lvmm'
         payloadMaps:
@@ -179,16 +181,6 @@ stages:
         payloadMaps:
           - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)'
             payloadLocation: 'LVCommon'
-
-      - controlFileName: 'control_custom_device_interfaces'
-        payloadMaps:
-          - installLocation: 'ProgramFiles\NI\LVAddons\nivscustomdeviceexpress\1'
-            payloadLocation: 'CDInterfaces'
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
 # =====================================================================
 # LINUX BUILD
