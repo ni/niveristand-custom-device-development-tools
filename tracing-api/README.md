@@ -39,6 +39,7 @@ Use this VI at the end of the code section being measured to record the event du
 
 ### Note
 
+- **Event Start** and **Event Stop** must always be used as a pair.
 - **Event Start** and **Event Stop** can also be used in the **Read Data from HW** and **Write Data to HW** cases of inline Hardware Interface Custom Devices, since these execute within the VeriStand engine's primary control loop.
 
 ![Event Start Stop in Timing Loop](Images/Event_Start_Stop_in_Timing_Structure.png)
