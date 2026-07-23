@@ -155,6 +155,26 @@ stages:
           - version: '2025'
             bitness: '64bit'
 
+      - projectLocation: 'custom-device-express-framework\Source\Custom Device Test Bench\Custom Device Test Bench.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
+      - projectLocation: 'custom-device-express-framework\Source\Custom Device Test Bench\Custom Device Test Bench Linux x64.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
+        exclusions:
+          - version: '2024'
+            bitness: '64bit'
+          - version: '2025'
+            bitness: '64bit'
+
     releaseVersion: '26.5.0'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
