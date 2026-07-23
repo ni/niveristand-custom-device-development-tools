@@ -24,6 +24,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CD Express Post-Build Action.vi" Type="VI" URL="../../Shared/CD Express Post-Build Action.vi"/>
 		<Item Name="Custom Device Test Bench.lvlib" Type="Library" URL="../Custom Device Test Bench.lvlib"/>
+		<Item Name="Transfer Files to Target.vi" Type="VI" URL="../Transfer Files to Target.vi"/>
+		<Item Name="Find All Path Control Values.vi" Type="VI" URL="../Utilities/Find All Path Control Values.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Move Source" Type="Source Distribution">
@@ -56,15 +58,26 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Targets/NI/RT/Linux/PXI/user.lib/Custom Devie Test Bench/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{336474C8-0EFF-46DF-995C-C5323EA66EE4}</Property>
+				<Property Name="Destination[2].destName" Type="Str">Utilities Directory</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Targets/NI/RT/Linux/PXI/user.lib/Custom Devie Test Bench/Utilities</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{74C2C129-EDCC-4F92-ACC4-DD061EC7513C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Test Bench.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Transfer Files to Target.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Find All Path Control Values.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
