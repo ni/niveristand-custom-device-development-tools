@@ -8,6 +8,7 @@ The tracing implementation is based on **Perfetto**, an open-source tracing fram
 
 > **Note:** The NI VeriStand Tracing API is supported only on **Linux Real-Time targets**. Trace generation and collection are not supported on Windows targets.
 
+> **Note:** Tracing APIs are provided to help profile and analyze custom code developed by users; however, developers should be mindful of the number of trace events added, as enabling tracing introduces additional runtime overhead, and excessive tracing can adversely impact performance, especially in systems that are already operating near resource capacity with limited headroom available for trace recording.
 ---
 
 # Using the APIs
