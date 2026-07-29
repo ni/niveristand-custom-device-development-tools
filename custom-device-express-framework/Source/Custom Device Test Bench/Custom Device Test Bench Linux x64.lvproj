@@ -24,8 +24,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CD Express Post-Build Action.vi" Type="VI" URL="../../Shared/CD Express Post-Build Action.vi"/>
 		<Item Name="Custom Device Test Bench.lvlib" Type="Library" URL="../Custom Device Test Bench.lvlib"/>
-		<Item Name="Transfer Files to Target.vi" Type="VI" URL="../Transfer Files to Target.vi"/>
-		<Item Name="Find All Path Control Values.vi" Type="VI" URL="../Utilities/Find All Path Control Values.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Move Source" Type="Source Distribution">
@@ -69,15 +67,7 @@
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Transfer Files to Target.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Find All Path Control Values.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
