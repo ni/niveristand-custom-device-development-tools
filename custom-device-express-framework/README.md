@@ -1,6 +1,6 @@
 # Custom Device Express Framework
 
-The Custom Device Express framework is an enhanced Custom Device development framework that auto-generates the System Explorer UI, Scripting API, orchestration code, serialization & deserialization of deployment settings and a test bench for ebugging based on the input provided in wizard.
+The Custom Device Express framework is an enhanced Custom Device development framework that auto-generates the System Explorer UI, Scripting API, orchestration code, serialization & deserialization of deployment settings and a test bench for debugging based on the input provided in wizard.
 
 **custom-device-express-framework** component in niveristand-custom-device-development-tools repository provides Custom Device Interfaces, NIVS Inline Async API (Express) and Custom Device Test Bench that are commonly used in the development of custom device using the Custom Device Express Framework.
 
