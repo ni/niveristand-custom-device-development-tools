@@ -1,8 +1,8 @@
 # Custom Device Express Framework
 
-The Custom Device Express framework is an enhanced Custom Device development framework that auto-generates the System Explorer UI, Scripting API, orchestration code, serialization & deserialization of deployment settings and a standalone engine debugger based on the input provided in wizard.
+The Custom Device Express framework is an enhanced Custom Device development framework that auto-generates the System Explorer UI, Scripting API, orchestration code, serialization & deserialization of deployment settings and a test bench for debugging based on the input provided in wizard.
 
-**custom-device-express-framework** component in niveristand-custom-device-development-tools repository provides Custom Device Interfaces and NIVS Inline Async APIs that are commonly used in the development of custom device using the Custom Device Express Framework.
+**custom-device-express-framework** component in niveristand-custom-device-development-tools repository provides Custom Device Interfaces, NIVS Inline Async API (Express) and Custom Device Test Bench that are commonly used in the development of custom device using the Custom Device Express Framework.
 
 ## Components
 
@@ -25,3 +25,7 @@ The library contains two components:
 
 - **VS Inline Async API (Express)** 
 - **Data Access Engine (Express)** 
+
+### Custom Device Test Bench
+
+Custom Device Test Bench provides vi's to debug Custom Device Engine code. This lvlib file will be referenced in individual Custom Device Test Hooks lvproj from where user's can debug their Custom Device Engine code
