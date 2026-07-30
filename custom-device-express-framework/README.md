@@ -28,7 +28,4 @@ The library contains two components:
 
 ### Custom Device Test Bench
 
-Custom Device Test Bench provides Windows and RT Linux PXI target specific lvprojs for debugging user's Custom Device Engine code. 
-- User's can place breakpoints in subVIs in the Custom Device Engine Code (the subVI needs to be a non re-entrant)
-- Build all the necessary PPLs from the Custom Device Test Hooks lvproj (created in teh Custom Device Folder)
-- Open **Run Test Bench.vi** and follow the instructions in the vi's front panel
+Custom Device Test Bench provides vi's to debug Custom Device Engine code. This lvlib file will be referenced in individual Custom Device Test Hooks lvproj from where user's can debug their Custom Device Engine code
