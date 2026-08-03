@@ -28,7 +28,7 @@
 		<Item Name="Parse Custom Device Name from JSON.vi" Type="VI" URL="../Utilities/Parse Custom Device Name from JSON.vi"/>
 		<Item Name="Read JSON File.vi" Type="VI" URL="../Utilities/Read JSON File.vi"/>
 		<Item Name="RT Driver VI.vi" Type="VI" URL="../Utilities/RT Driver VI.vi"/>
+		<Item Name="Update Global References.vi" Type="VI" URL="../Utilities/Update Global References.vi"/>
 	</Item>
-	<Item Name="Run Test Bench.vi" Type="VI" URL="../Run Test Bench.vi"/>
 	<Item Name="Test Bench Custom Device API.lvclass" Type="LVClass" URL="../Test Bench Custom Device API/Test Bench Custom Device API.lvclass"/>
 </Library>
