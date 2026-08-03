@@ -12,7 +12,6 @@
 		<Item Name="RT Driver States.ctl" Type="VI" URL="../Types/RT Driver States.ctl"/>
 		<Item Name="RT Driver VI Ref.ctl" Type="VI" URL="../Types/RT Driver VI Ref.ctl"/>
 		<Item Name="State Machine States.ctl" Type="VI" URL="../Types/State Machine States.ctl"/>
-		<Item Name="Test Hooks VI References.ctl" Type="VI" URL="../Types/Test Hooks VI References.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Build CDTB Settings.vi" Type="VI" URL="../Utilities/Build CDTB Settings.vi"/>
