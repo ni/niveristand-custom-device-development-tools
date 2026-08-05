@@ -14,8 +14,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CD Express Post-Build Action.vi" Type="VI" URL="../../Shared/CD Express Post-Build Action.vi"/>
 		<Item Name="Custom Device Test Bench.lvlib" Type="Library" URL="../Custom Device Test Bench.lvlib"/>
-		<Item Name="Transfer Files to Target.vi" Type="VI" URL="../Transfer Files to Target.vi"/>
 		<Item Name="Find All Path Control Values.vi" Type="VI" URL="../Utilities/Find All Path Control Values.vi"/>
+		<Item Name="Transfer Files to Target.vi" Type="VI" URL="../Transfer Files to Target.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Move Source" Type="Source Distribution">
@@ -48,7 +48,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Targets/win64/user.lib/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CFAC93C8-7BA5-4B0B-A02E-A286E710D76D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FC0C8EA-1CD4-477E-A99B-2575D731F126}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Test Bench.lvlib</Property>

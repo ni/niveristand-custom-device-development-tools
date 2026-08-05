@@ -12,23 +12,20 @@
 		<Item Name="RT Driver States.ctl" Type="VI" URL="../Types/RT Driver States.ctl"/>
 		<Item Name="RT Driver VI Ref.ctl" Type="VI" URL="../Types/RT Driver VI Ref.ctl"/>
 		<Item Name="State Machine States.ctl" Type="VI" URL="../Types/State Machine States.ctl"/>
-		<Item Name="Test Hooks VI References.ctl" Type="VI" URL="../Types/Test Hooks VI References.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="Build CDTB Settings.vi" Type="VI" URL="../Utilities/Build CDTB Settings.vi"/>
 		<Item Name="CDTB Settings FGV.vi" Type="VI" URL="../Utilities/CDTB Settings FGV.vi"/>
 		<Item Name="Close Test Hooks VI References.vi" Type="VI" URL="../Utilities/Close Test Hooks VI References.vi"/>
 		<Item Name="Create and Initialize all Test Hooks VIs Reference.vi" Type="VI" URL="../Utilities/Create and Initialize all Test Hooks VIs Reference.vi"/>
 		<Item Name="Create Test Hooks VI Reference.vi" Type="VI" URL="../Utilities/Create Test Hooks VI Reference.vi"/>
 		<Item Name="Execute RT State.vi" Type="VI" URL="../Utilities/Execute RT State.vi"/>
 		<Item Name="Execute Test Hooks VI.vi" Type="VI" URL="../Utilities/Execute Test Hooks VI.vi"/>
-		<Item Name="Get CD DevelopmentHooks PPL Class.vi" Type="VI" URL="../Utilities/Get CD DevelopmentHooks PPL Class.vi"/>
-		<Item Name="Get CD PPL Class.vi" Type="VI" URL="../Utilities/Get CD PPL Class.vi"/>
 		<Item Name="Parse and Update Channel Data Ref in JSON.vi" Type="VI" URL="../Utilities/Parse and Update Channel Data Ref in JSON.vi"/>
 		<Item Name="Parse Custom Device Name from JSON.vi" Type="VI" URL="../Utilities/Parse Custom Device Name from JSON.vi"/>
 		<Item Name="Read JSON File.vi" Type="VI" URL="../Utilities/Read JSON File.vi"/>
 		<Item Name="RT Driver VI.vi" Type="VI" URL="../Utilities/RT Driver VI.vi"/>
+		<Item Name="Setup Test Bench.vi" Type="VI" URL="../Utilities/Setup Test Bench.vi"/>
+		<Item Name="Update Global References.vi" Type="VI" URL="../Utilities/Update Global References.vi"/>
 	</Item>
-	<Item Name="Run Test Bench.vi" Type="VI" URL="../Run Test Bench.vi"/>
 	<Item Name="Test Bench Custom Device API.lvclass" Type="LVClass" URL="../Test Bench Custom Device API/Test Bench Custom Device API.lvclass"/>
 </Library>
