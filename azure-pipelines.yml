@@ -33,6 +33,8 @@ stages:
         bitness: '64bit'
       - version: '2026'
         bitness: '64bit'
+      - version: '2027'
+        bitness: '64bit'
 
     codegenVis:
       - 'docs\error_codes_files\Copy Errors to Built Directory.vi'
@@ -175,7 +177,7 @@ stages:
           - version: '2025'
             bitness: '64bit'
 
-    releaseVersion: '26.5.0'
+    releaseVersion: '26.8.0'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
@@ -216,7 +218,8 @@ stages:
     lvVersionsToBuild:
       - version: '2026'
         bitness: '64bit'
-
+      - version: '2027'
+        bitness: '64bit'
     buildSteps:
       - id: 'lv_memory_manager'
         projectLocation: 'lv-memory-manager/LabVIEW Memory Manager.lvproj'
@@ -290,7 +293,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
 
-    releaseVersion: '26.5.0'
+    releaseVersion: '26.8.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
