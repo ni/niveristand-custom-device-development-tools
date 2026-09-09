@@ -166,6 +166,8 @@ stages:
             bitness: '64bit'
           - version: '2025'
             bitness: '64bit'
+          - version: '2027'
+            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\Custom Device Test Bench\Custom Device Test Bench Linux x64.lvproj'
         buildOperation: 'ExecuteBuildSpec'
@@ -175,6 +177,8 @@ stages:
           - version: '2024'
             bitness: '64bit'
           - version: '2025'
+            bitness: '64bit'
+          - version: '2027'
             bitness: '64bit'
 
     releaseVersion: '26.8.0'
