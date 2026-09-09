@@ -220,10 +220,9 @@ stages:
       - WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
+
     buildSteps:
       - id: 'lv_memory_manager'
         projectLocation: 'lv-memory-manager/LabVIEW Memory Manager.lvproj'
