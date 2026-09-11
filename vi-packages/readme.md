@@ -15,3 +15,4 @@ This is a virtual package to install the various third-party dependencies necess
 - OpenG File Library
 - OpenG LabVIEW Data Library
 - OpenG String Library
+- JDPScience JSONtext
