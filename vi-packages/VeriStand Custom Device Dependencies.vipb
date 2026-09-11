@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-03 15:35:55" Modified_Date="2026-09-11 10:13:23" Creator="Administrator" Comments="" ID="36e66bb5cfcce0e1c74f64f8caf25a1a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-06-03 15:35:55" Modified_Date="2026-09-11 14:17:10" Creator="Administrator" Comments="" ID="203a6cb79ca42ecd94cb6948eb54d8a3">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_VeriStand_Custom_Device_Dev_Dependencies</Package_File_Name>
     <Library_Version>1.0.0.5</Library_Version>
@@ -67,7 +67,7 @@ OpenG Error Library
 OpenG File Library
 OpenG LabVIEW Data Library
 OpenG String Library
-JDPScience JSONtxt
+JDPScience JSONtext
 
 Note: You will need to refresh available packages in VIPM before attempting to install this VI Package.</Description>
       <Copyright/>
