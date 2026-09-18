@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -27,12 +27,6 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2024'
-        bitness: '64bit'
-      - version: '2025'
-        bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
 
@@ -99,11 +93,6 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces.lvproj'
         buildOperation: 'ExecuteBuildSpec'
@@ -115,11 +104,6 @@ stages:
           Write-Host "Copying Custom Device Interfaces PPL to LabVIEW user.lib..."
           Copy-Item -Path $src -Destination $dest -Recurse -Force
           Write-Host "Copy complete."
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\Custom Device Interfaces\Custom Device Interfaces Linux x64.lvproj'
         buildOperation: 'ExecuteBuildSpec'
@@ -131,41 +115,22 @@ stages:
           Write-Host "Copying Linux Custom Device Interfaces PPL to LabVIEW RT user.lib..."
           Copy-Item -Path $src -Destination $dest -Recurse -Force
           Write-Host "Copy complete."
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express).lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\NIVS Inline Async API (Express)\NIVS Inline Async API (Express) Linux x64.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
-        exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\Custom Device Test Bench\Custom Device Test Bench.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
         exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
           - version: '2027'
             bitness: '64bit'
 
@@ -174,16 +139,12 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
         exclusions:
-          - version: '2024'
-            bitness: '64bit'
-          - version: '2025'
-            bitness: '64bit'
           - version: '2027'
             bitness: '64bit'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
 
     packages:
@@ -296,9 +257,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
