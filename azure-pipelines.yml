@@ -27,12 +27,6 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2024'
-        bitness: '64bit'
-      - version: '2025'
-        bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
 
