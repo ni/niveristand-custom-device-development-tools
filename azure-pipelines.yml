@@ -21,7 +21,7 @@ stages:
 # =====================================================================
 # WINDOWS BUILD (Stage Template)
 # =====================================================================
-- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+- template: azure-templates/stages-legacy.yml@niveristand-custom-device-build-tools
   parameters:
     stageName: WindowsBuild
 
