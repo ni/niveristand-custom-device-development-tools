@@ -37,6 +37,11 @@
 		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
 		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RemotePanel.ControlPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ControlTcpPort" Type="Int">3584</Property>
+		<Property Name="target.RemotePanel.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.RemotePanel.ViewPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ViewTcpPort" Type="Int">3583</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
