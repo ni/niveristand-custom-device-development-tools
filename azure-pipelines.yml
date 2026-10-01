@@ -142,7 +142,7 @@ stages:
           - version: '2027'
             bitness: '64bit'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
@@ -257,7 +257,7 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
