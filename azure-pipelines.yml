@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: false
+    value: true
 
 resources:
   repositories:
@@ -142,9 +142,9 @@ stages:
           - version: '2027'
             bitness: '64bit'
 
-    releaseVersion: '27.0.0'
+    releaseVersion: '26.8.0'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-development-tools'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
 
     packages:
@@ -257,9 +257,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Move Source'
 
-    releaseVersion: '27.0.0'
+    releaseVersion: '26.8.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-development-tools'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-development-tools'
     repoName: 'niveristand-custom-device-development-tools'
