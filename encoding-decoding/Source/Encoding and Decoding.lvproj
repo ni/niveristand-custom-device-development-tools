@@ -52,7 +52,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Copy Encoding Errors to Built Directory.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4E54B0E3-999A-45D7-B509-1838338C18B7}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built</Property>
