@@ -43,39 +43,39 @@
 		<Item Name="SysDef.Globals.vi" Type="VI" URL="../../_SubVIs/SysDef.Globals.vi"/>
 		<Item Name="Sysdef.LoadFile.vi" Type="VI" URL="../../_SubVIs/Sysdef.LoadFile.vi"/>
 		<Item Name="SysDef.Node.Info.Get.vi" Type="VI" URL="../../_SubVIs/SysDef.Node.Info.Get.vi"/>
-		<Item Name="SysDef.Property.Get.Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Get.Boolean.vi"/>
+		<Item Name="SysDef.Property.Get.Boolean.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.Boolean.vi"/>
 		<Item Name="SysDef.Property.Get.DBL.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.DBL.Array.vi"/>
 		<Item Name="SysDef.Property.Get.DBL.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.DBL.vi"/>
 		<Item Name="SysDef.Property.Get.DependentFile.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.DependentFile.vi"/>
-		<Item Name="SysDef.Property.Get.I32.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Get.I32.Array.vi"/>
+		<Item Name="SysDef.Property.Get.I32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.I32.Array.vi"/>
 		<Item Name="SysDef.Property.Get.I32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.I32.vi"/>
 		<Item Name="SysDef.Property.Get.Node.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.Node.vi"/>
 		<Item Name="SysDef.Property.Get.Path.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.Path.vi"/>
 		<Item Name="SysDef.Property.Get.String.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.String.Array.vi"/>
 		<Item Name="SysDef.Property.Get.String.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.String.vi"/>
-		<Item Name="SysDef.Property.Get.U16.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Get.U16.vi"/>
+		<Item Name="SysDef.Property.Get.U16.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U16.vi"/>
 		<Item Name="SysDef.Property.Get.U32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U32.Array.vi"/>
-		<Item Name="SysDef.Property.Get.U32.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Get.U32.vi"/>
+		<Item Name="SysDef.Property.Get.U32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.U32.vi"/>
 		<Item Name="SysDef.Property.Get.Variant.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Get.Variant.vi"/>
-		<Item Name="SysDef.Property.Set.Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.Boolean.vi"/>
-		<Item Name="SysDef.Property.Set.DBL.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.DBL.Array.vi"/>
-		<Item Name="SysDef.Property.Set.DBL.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.DBL.vi"/>
-		<Item Name="SysDef.Property.Set.DependentFile.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.DependentFile.vi"/>
-		<Item Name="SysDef.Property.Set.I32.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.I32.Array.vi"/>
-		<Item Name="SysDef.Property.Set.I32.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.I32.vi"/>
-		<Item Name="SysDef.Property.Set.Node.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.Node.vi"/>
-		<Item Name="SysDef.Property.Set.Path.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.Path.vi"/>
-		<Item Name="SysDef.Property.Set.String.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.String.Array.vi"/>
-		<Item Name="SysDef.Property.Set.String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.String.vi"/>
-		<Item Name="SysDef.Property.Set.U16.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.U16.vi"/>
-		<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
-		<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.U32.vi"/>
-		<Item Name="SysDef.Property.Set.Variant.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Property.Set.Variant.vi"/>
-		<Item Name="SysDef.Search.GUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Search.GUID.vi"/>
-		<Item Name="SysDef.Search.GUIDs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Search.GUIDs.vi"/>
-		<Item Name="SysDef.Search.Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Search.Name.vi"/>
-		<Item Name="SysDef.Search.Parent.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Search.Parent.vi"/>
-		<Item Name="SysDef.Search.Target.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_SubVIs/SysDef.Search.Target.vi"/>
+		<Item Name="SysDef.Property.Set.Boolean.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Boolean.vi"/>
+		<Item Name="SysDef.Property.Set.DBL.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.DBL.Array.vi"/>
+		<Item Name="SysDef.Property.Set.DBL.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.DBL.vi"/>
+		<Item Name="SysDef.Property.Set.DependentFile.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.DependentFile.vi"/>
+		<Item Name="SysDef.Property.Set.I32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.I32.Array.vi"/>
+		<Item Name="SysDef.Property.Set.I32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.I32.vi"/>
+		<Item Name="SysDef.Property.Set.Node.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Node.vi"/>
+		<Item Name="SysDef.Property.Set.Path.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Path.vi"/>
+		<Item Name="SysDef.Property.Set.String.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.String.Array.vi"/>
+		<Item Name="SysDef.Property.Set.String.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.String.vi"/>
+		<Item Name="SysDef.Property.Set.U16.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U16.vi"/>
+		<Item Name="SysDef.Property.Set.U32.Array.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U32.Array.vi"/>
+		<Item Name="SysDef.Property.Set.U32.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.U32.vi"/>
+		<Item Name="SysDef.Property.Set.Variant.vi" Type="VI" URL="../../_SubVIs/SysDef.Property.Set.Variant.vi"/>
+		<Item Name="SysDef.Search.GUID.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUID.vi"/>
+		<Item Name="SysDef.Search.GUIDs.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.GUIDs.vi"/>
+		<Item Name="SysDef.Search.Name.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Name.vi"/>
+		<Item Name="SysDef.Search.Parent.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Parent.vi"/>
+		<Item Name="SysDef.Search.Target.vi" Type="VI" URL="../../_SubVIs/SysDef.Search.Target.vi"/>
 		<Item Name="TreeItem.Get.vi" Type="VI" URL="../../_SubVIs/TreeItem.Get.vi"/>
 		<Item Name="TreeItem.Property.Get.vi" Type="VI" URL="../../_SubVIs/TreeItem.Property.Get.vi"/>
 		<Item Name="TreeItem.Property.Set.vi" Type="VI" URL="../../_SubVIs/TreeItem.Property.Set.vi"/>
@@ -87,7 +87,7 @@
 		<Item Name="Property.Dictionary.ctl" Type="VI" URL="../../_Types/Property.Dictionary.ctl"/>
 		<Item Name="SysDef.Export.ctl" Type="VI" URL="../../_Types/SysDef.Export.ctl"/>
 		<Item Name="TreeItem.ctl" Type="VI" URL="../../_Types/TreeItem.ctl"/>
-		<Item Name="TreeItem.Info.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/_Types/TreeItem.Info.ctl"/>
+		<Item Name="TreeItem.Info.ctl" Type="VI" URL="../../_Types/TreeItem.Info.ctl"/>
 		<Item Name="TreeItem.Property.ctl" Type="VI" URL="../../_Types/TreeItem.Property.ctl"/>
 	</Item>
 	<Item Name="SysDef API" Type="Folder">

@@ -62,7 +62,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Development Utilities/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6672CE50-178E-4D90-B9C9-261111E2A6C3}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/vi.lib/NI/Memory Manager</Property>
