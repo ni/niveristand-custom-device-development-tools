@@ -5,6 +5,59 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">*Q!A!1!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">*Q!A!1!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -66,7 +119,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/Menus/Categories/VeriStand Development Tools</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{43A9B62E-D6AF-4506-9CF4-B07866796E18}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3C8CDAB7-8A9D-4585-AC35-9DB0F8996F41}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
