@@ -257,7 +257,7 @@ stages:
         buildSpec: 'Move Source'
 
       - id: 'tracing_api'
-        projectLocation: 'tracing-api\Source\Tracing API.lvproj'
+        projectLocation: 'tracing-api/Source/Tracing API.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
