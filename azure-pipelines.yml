@@ -130,17 +130,16 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
-        exclusions:
-          - version: '2027'
-            bitness: '64bit'
 
       - projectLocation: 'custom-device-express-framework\Source\Custom Device Test Bench\Custom Device Test Bench Linux x64.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
-        exclusions:
-          - version: '2027'
-            bitness: '64bit'
+
+      - projectLocation: 'tracing-api\Source\Tracing API.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
 
     releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
@@ -253,6 +252,12 @@ stages:
 
       - id: 'runtime_config_api'
         projectLocation: 'runtime-configuration-file-api/Source/Runtime Configuration File API.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Move Source'
+
+      - id: 'tracing_api'
+        projectLocation: 'tracing-api\Source\Tracing API.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Move Source'
